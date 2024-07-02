@@ -48,17 +48,14 @@ test_bow_features = p1.extract_bow_feature_vectors(test_texts, dictionary)
 
 # T = 10
 # L = 0.01
-
 # pct_train_accuracy, pct_val_accuracy = \
 #    p1.classifier_accuracy(p1.perceptron, train_bow_features,val_bow_features,train_labels,val_labels,T=T)
 # print("{:35} {:.4f}".format("Training accuracy for perceptron:", pct_train_accuracy))
 # print("{:35} {:.4f}".format("Validation accuracy for perceptron:", pct_val_accuracy))
-
 # avg_pct_train_accuracy, avg_pct_val_accuracy = \
 #    p1.classifier_accuracy(p1.average_perceptron, train_bow_features,val_bow_features,train_labels,val_labels,T=T)
 # print("{:43} {:.4f}".format("Training accuracy for average perceptron:", avg_pct_train_accuracy))
 # print("{:43} {:.4f}".format("Validation accuracy for average perceptron:", avg_pct_val_accuracy))
-
 # avg_peg_train_accuracy, avg_peg_val_accuracy = \
 #    p1.classifier_accuracy(p1.pegasos, train_bow_features,val_bow_features,train_labels,val_labels,T=T,L=L)
 # print("{:50} {:.4f}".format("Training accuracy for Pegasos:", avg_peg_train_accuracy))
@@ -87,12 +84,10 @@ test_bow_features = p1.extract_bow_feature_vectors(test_texts, dictionary)
 # peg_tune_results_T = utils.tune_pegasos_T(fix_L, Ts, *data)
 # print('Pegasos valid: tune T', list(zip(Ts, peg_tune_results_T[1])))
 # print('best = {:.4f}, T={:.4f}'.format(np.max(peg_tune_results_T[1]), Ts[np.argmax(peg_tune_results_T[1])]))
-
 # fix_T = Ts[np.argmax(peg_tune_results_T[1])]
 # peg_tune_results_L = utils.tune_pegasos_L(fix_T, Ls, *data)
 # print('Pegasos valid: tune L', list(zip(Ls, peg_tune_results_L[1])))
 # print('best = {:.4f}, L={:.4f}'.format(np.max(peg_tune_results_L[1]), Ls[np.argmax(peg_tune_results_L[1])]))
-
 # utils.plot_tune_results('Perceptron', 'T', Ts, *pct_tune_results)
 # utils.plot_tune_results('Avg Perceptron', 'T', Ts, *avg_pct_tune_results)
 # utils.plot_tune_results('Pegasos', 'T', Ts, *peg_tune_results_T)
