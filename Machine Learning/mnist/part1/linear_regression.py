@@ -2,6 +2,7 @@ import numpy as np
 
 ### Functions for you to fill in ###
 
+
 def closed_form(X, Y, lambda_factor):
     """
     Computes the closed form solution of linear regression with L2 regularization
@@ -16,9 +17,17 @@ def closed_form(X, Y, lambda_factor):
         represents the y-axis intercept of the model and therefore X[0] = 1
     """
     # YOUR CODE HERE
-    raise NotImplementedError
+    XT = X.T
+    XT_X = np.dot(XT, X)
+    lambda_I = lambda_factor * np.identity(X.shape[1])
+    XT_X_reg = XT_X + lambda_I
+    XT_X_reg_inv = np.linalg.inv(XT_X_reg)
+    XT_Y = np.dot(X.T, Y)
+    theta = np.dot(XT_X_reg_inv, XT_Y)
+    return theta
 
 ### Functions which are already complete, for you to use ###
+
 
 def compute_test_error_linear(test_x, Y, theta):
     test_y_predict = np.round(np.dot(test_x, theta))
