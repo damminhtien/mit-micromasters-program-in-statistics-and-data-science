@@ -31,7 +31,7 @@ def main():
     y_train = [y_train[i] for i in permutation]
 
     # Split dataset into batches
-    batch_size = 32
+    batch_size = 32 # 64: 0.9314903846153846
     train_batches = batchify_data(X_train, y_train, batch_size)
     dev_batches = batchify_data(X_dev, y_dev, batch_size)
     test_batches = batchify_data(X_test, y_test, batch_size)
@@ -43,6 +43,11 @@ def main():
               nn.ReLU(),
               nn.Linear(10, 10),
             )
+    # model = nn.Sequential(
+    #           nn.Linear(784, 128),
+    #           nn.ReLU(),
+    #           nn.Linear(128, 10),
+    #         )
     lr=0.1
     momentum=0
     ##################################
