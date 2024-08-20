@@ -9,7 +9,7 @@ def estep(X: np.ndarray, mixture: GaussianMixture) -> Tuple[np.ndarray, float]:
     """E-step: Softly assigns each datapoint to a gaussian component
 
     Args:
-        X: (n, d) array holding the data
+        X: (n, d) array holding the data, with incomplete entries (set to 0)
         mixture: the current gaussian mixture
 
     Returns:
