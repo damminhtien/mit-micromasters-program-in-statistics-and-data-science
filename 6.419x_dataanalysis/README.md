@@ -1,27 +1,19 @@
-# 📊 6.419x Data Analysis: Unleash the Power of Data! 🚀
-
-**Dive deep into the dynamic world of data analysis!** 🌐 This isn't just another stats course; it's a hands-on journey where you'll forge a powerful connection between statistical theory and real-world computation.  Get ready to unravel complex datasets and extract meaningful insights like never before. 🧠
+# 📊 6.419x Data Analysis: Statistical Modeling and Computation in Applications 🚀
 
 This course, Data Analysis: Statistical Modeling and Computation in Applications, throws you headfirst into the thrilling interplay of statistics and computation. 🧮 We're not just talking theory here; we're tackling **real-world data** from diverse and fascinating fields. 🌎
 
-**Your Data Analysis Adventure Awaits:**
-
-The course unfolds in five distinct parts: an introductory boot camp (Module 1) and four captivating modules (Modules 2-5).  The introduction will sharpen your existing statistical toolkit, revisiting core concepts like hypothesis tests, regression, and gradient descent. Then, prepare to plunge into specific data domains:
+The course unfolds in five distinct parts: an introductory boot camp (Module 1) and three captivating modules (Modules 2-4).  The introduction will sharpen your existing statistical toolkit, revisiting core concepts like hypothesis tests, regression, and gradient descent. Then, prepare to plunge into specific data domains:
 
 *   🧬 **Genomics & High-Dimensional Data:**  Explore the vast landscape of genomic data! Discover how to wrangle and visualize datasets with mind-boggling complexity using techniques like principal component analysis (PCA) and t-distributed stochastic neighbor embedding (t-SNE).
 *   🕵️‍♂️ **Criminal Networks & Network Analysis:**  Step into the world of interconnectedness! Learn to map out relationships and identify key players within complex networks. Uncover the hidden structures within criminal networks and master the art of centrality measures.
 *   📈 **Prices, Economics & Time Series:**  Become a time series guru!  Delve into the fluctuations of economic data, predict trends, and forecast future behavior using powerful techniques like moving averages and autoregressive models.
 *   🌳 **Environmental Data & Spatial Statistics:**  Unlock the secrets hidden within environmental data.  Harness the power of Gaussian processes to model spatial patterns and craft accurate predictions that can inform vital environmental decisions.
 
-**Your Mission: Master the Art of Data Deduction** 🔍
-
 In each module, you will embark on an analysis quest, tackling real-world datasets. Each assignment challenge you not only to use math and statistics, but also require:
 
 *   🤖 **Autograded Problems:** Sharpen your technical chops with rigorous, automatically evaluated exercises.
 *   ✍️ **Written Report:**  Craft compelling narratives that explain your analytical approach, findings, and conclusions. Become a data storytelling ninja.
 *   👥 **Peer Review:**  Hone your critical thinking and communication skills by evaluating the work of your peers.
-
-**What Awaits You at the Finish Line?** 🏁
 
 By the end of this course, you will be able to:
 
