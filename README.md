@@ -29,7 +29,7 @@ The MicroMasters consists of four intensive, challenging, yet rewarding courses:
    - *Challenge:* Bridging theory and practical machine learning implementation.
 
 4. **Data Analysis: Statistical Modeling and Computation in Applications**
-   - Observational studies, multiple hypothesis testing, high-dimensional data, graph network analysis, 
+   - Observational studies, multiple hypothesis testing, high-dimensional data, graph network analysis, time series.
    - *Challenge:* Working on real-life project and peer-to-peer review.
 
 5. **Capstone Exam in Statistics and Data Science**
