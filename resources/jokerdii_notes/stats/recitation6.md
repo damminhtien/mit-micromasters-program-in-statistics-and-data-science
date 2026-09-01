@@ -147,7 +147,7 @@ Consider a finite space $E=\{ a_1,a_2,\ldots ,a_ r\}$ of size $r \geq 2$ and let
 >
 >    However, once we add the constraint $p_1 + p_2 + p_3 = 1$ , we say that the parameter space is the intersection of this plane and the cube described above. We get a triangle lying in the plane defined by $p_1 + p_2 + p_3 = 1$ with its three edges on the planes $p_1 = 0$, $p_2 = 0$, and $p_3 = 0$. (See it drawn here.)
 >
->    ![reci6-boundary](../assets/images/reci6-boundary.png)
+>    > **Image unavailable in this archive:** reci6-boundary. Original asset path: `../assets/images/reci6-boundary.png`
 >
 >    Since the parameter space is a triangle, it is a surface and it is "all boundary." Our theorem for MLE requires the true parameter to be a point on the interior of the parameter space volume, which is impossible when there is no real interior, as in our case.
 >

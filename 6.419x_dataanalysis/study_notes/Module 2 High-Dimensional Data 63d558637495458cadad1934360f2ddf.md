@@ -10,7 +10,7 @@ At the end of this lecture, you should be able to:
 6. Recognize that t-SNE alleviates crowding of data points in low-dimension.
 7. Analyze the results of PCA, MDS, t-SNE together to identify patterns of the data.
 
-### Lecture Goals and Key Concepts (generated)
+### Learner checklist (draft; not source text)
 
 1. **Recognize the different features of the three dimension reduction techniques: PCA, MDS, and SNE.**
     
@@ -82,7 +82,8 @@ At the end of this lecture, you should be able to:
 3. **Stochastic Neighbor Embedding (SNE) and t-SNE:**
     - **Key Concept:** SNE and t-SNE minimize the divergence between probability distributions of pairwise similarities in high-dimensional and low-dimensional spaces.
     - **Implementation of t-SNE:**
-        - Compute pairwise affinities in high-dimensional space: \(p_{ij} = \frac{\exp(-\|x_i - x_j\|^2 / 2 \sigma^2)}{\sum_{k \neq l} \exp(-\|x_k - x_l\|^2 / 2 \sigma^2)}\)
+        - Compute conditional affinities in high-dimensional space with a point-specific bandwidth: \(p_{j\mid i} = \frac{\exp(-\|x_i-x_j\|^2 / 2\sigma_i^2)}{\sum_{k\ne i}\exp(-\|x_i-x_k\|^2 / 2\sigma_i^2)}\).
+        - Symmetrize them for t-SNE: \(p_{ij} = (p_{j\mid i}+p_{i\mid j})/(2n)\).
         - Compute pairwise affinities in low-dimensional space: \(q_{ij} = \frac{(1 + \|y_i - y_j\|^2)^{-1}}{\sum_{k \neq l} (1 + \|y_k - y_l\|^2)^{-1}}\)
         - Minimize KL divergence: \(KL(P \| Q) = \sum_{i \neq j} p_{ij} \log \frac{p_{ij}}{q_{ij}}\)
 
@@ -92,7 +93,7 @@ At the end of this lecture, you should be able to:
 [2] Describe how to handle missing data in dimension reduction techniques.
 [3] Discuss the computational complexity of PCA, MDS, and t-SNE.
 
-Great work in exploring these complex concepts! Please let me know which related topic you would like to delve into further, or if you have any other questions.
+> This checklist is an editorial aid and must be checked against the official lecture slides before being used as a reference.
 
 # Introduction
 

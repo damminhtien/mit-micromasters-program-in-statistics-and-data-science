@@ -1,0 +1,31 @@
+name: Content quality report
+description: Report a broken link, unclear explanation, attribution issue, or mathematical concern.
+title: "[content] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Give the file path and, if possible, the line or section.
+      placeholder: 6.419x_dataanalysis/study_notes/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Broken link or image
+        - Mathematical or factual concern
+        - Attribution or licensing
+        - Incomplete or misleading navigation
+        - Reproducibility
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What should change?
+      description: Include the expected behavior and a source when relevant.
+    validations:
+      required: true

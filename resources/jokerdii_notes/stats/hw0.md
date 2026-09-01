@@ -574,7 +574,7 @@ For general n×n matrices, the **sum of the eigenvalues is always equal to the t
 
 # Additional Readings
 
-![distributions](../assets/images/distribution-summary.jpeg)
+> **Image unavailable in this archive:** distributions. Original asset path: `../assets/images/distribution-summary.jpeg`
 
 From : https://medium.com/@ciortanmadalina/overview-of-data-distributions-87d95a5cbf0a
 

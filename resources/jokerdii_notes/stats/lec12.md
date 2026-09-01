@@ -154,7 +154,7 @@ Recall from the lecture that the **check function** is defined as
 $$
 C_\alpha (x) = \begin{cases} -(1-\alpha)x & \text{if }x < 0\\ \alpha x & \text{if } x \geq 0 \end{cases}
 $$
-![checkFunction](../assets/images/checkFunction.png)
+> **Image unavailable in this archive:** checkFunction. Original asset path: `../assets/images/checkFunction.png`
 
 Assume that $X$ is a continuous random variable with density $f: \R \rightarrow \R$. Define the $\alpha$-**quantile** of $X$ to be $Q_X{\alpha} \in \R$ such that
 $$
@@ -431,7 +431,7 @@ Huber's loss:
 $$
 h_\delta(x) = \begin{cases} {x^2 \over 2} & \text{if }|x| \leq \delta\\ \delta(|x| - {\delta \over 2}) & \text{if } |x| > \delta \end{cases}
 $$
-![images_u3s5_huberloss](../assets/images/images_u3s5_huberloss.svg)
+> **Image unavailable in this archive:** images_u3s5_huberloss. Original asset path: `../assets/images/images_u3s5_huberloss.svg`
 
 The first derivative of Huber's loss is the **clip function**:
 $$

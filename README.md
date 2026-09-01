@@ -1,88 +1,57 @@
-# MITx MicroMasters in Statistics and Data Science (General Track) 📊✨
+# MITx Statistics and Data Science Study Hub
 
-Welcome to this repository - a dedicated resource for students and learners passionate about embarking on the transformative journey through the **MITx MicroMasters Program in Statistics and Data Science**. Whether you're just exploring the world of data or you're already deep into your analytical journey, this guide will help you navigate, excel, and thrive!
+[![GitHub stars](https://img.shields.io/github/stars/damminhtien/mit-micromasters-program-in-statistics-and-data-science?style=social)](https://github.com/damminhtien/mit-micromasters-program-in-statistics-and-data-science/stargazers)
+[![Content quality](https://github.com/damminhtien/mit-micromasters-program-in-statistics-and-data-science/actions/workflows/content-quality.yml/badge.svg)](https://github.com/damminhtien/mit-micromasters-program-in-statistics-and-data-science/actions/workflows/content-quality.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Notion version: [study notes](https://damminhtien.notion.site/MITx-SDS-7866aebb7437458496c298bc49c350e3?pvs=4)
+A learner-maintained study archive for the MITx MicroMasters in Statistics and Data Science (SDS): course maps, personal notes, lecture assets, project write-ups, and capstone revision material.
 
-## 🎯 About the MITx MicroMasters
+> This is an independent learner project, not an MIT or edX publication. Course names, slides, trademarks, and third-party materials remain with their respective owners. See [content provenance](docs/PROVENANCE.md).
 
-The MITx MicroMasters in Statistics and Data Science provides rigorous and practical training in statistics, probability, data analysis, machine learning, and data-driven decision-making, taught by world-renowned MIT faculty.
+## Start here
 
-![MIT SDS](/resources/images/mitx_sds.png)
+- [Content map](docs/CONTENT_MAP.md) — the shortest route through the repository.
+- [Course quality notes](docs/QUALITY.md) — what is verified, incomplete, or still being cleaned.
+- [Roadmap](ROADMAP.md) — the next milestones for making the archive more useful.
+- [Contributing](CONTRIBUTING.md) — report a broken link, propose a correction, or add a study resource.
+- [MITx SDS official site](https://micromasters.mit.edu/ds/) — enrollment, current dates, and program policy.
 
-This credential serves both as a professional milestone and as an accelerated pathway toward a full Master's degree at MIT or other prestigious universities.
+## Program map
 
-## 📚 Program Overview
+The current credential structure is three core courses, one elective, and a separate capstone exam. The elective can be 6.419x or 14.310x; this repository contains local material for 6.419x only.
 
-The MicroMasters consists of four intensive, challenging, yet rewarding courses:
+| Requirement | Course | Local material |
+| --- | --- | --- |
+| Core | [6.431x Probability](6.431x_probability/README.md) | Notes, lecture PDFs, study resources |
+| Core | [18.6501x Fundamentals of Statistics](18.6501x_statistics/README.md) | Notes, lecture PDFs, reference links |
+| Core | [6.86x Machine Learning](6.86x_machinelearning/README.md) | Notes, projects, lecture PDFs |
+| Elective | [6.419x Data Analysis](6.419x_dataanalysis/README.md) | Notes, projects, reports, lecture material |
+| Elective | 14.310x Data Analysis for Social Scientists | Not archived here; see the official program site |
+| Capstone | [SDS capstone archive](ds.cfx_capstoneexam/README.md) | Recaps and revision sheets |
 
-1. **Probability - The Science of Uncertainty and Data**
-   - Foundations in probability, distributions, conditional probability, random variables, and Bayesian inference.
-   - *Challenge:* Deep conceptual understanding and mathematical rigor.
+For the authoritative requirement and eligibility rules, use the [MIT SDS FAQ](https://micromasters.mit.edu/ds/faq/). Course links may require an authenticated edX session and can expire between cohorts.
 
-2. **Fundamentals of Statistics**
-   - Key statistical concepts, hypothesis testing, confidence intervals, regression analysis, and basic statistical inference.
-   - *Challenge:* Mastering statistical reasoning and analytical thinking.
+## What this repository contains
 
-3. **Machine Learning with Python: From Linear Models to Deep Learning**
-   - Linear models, regularization, decision trees, neural networks, and deep learning with hands-on Python programming.
-   - *Challenge:* Bridging theory and practical machine learning implementation.
+- **Conceptual notes:** probability, statistical inference, machine learning, high-dimensional data, networks, and time series.
+- **Working examples:** notebooks, projects, written analyses, and recap sheets.
+- **Runbooks:** dependency and path guidance for the [Data Analysis projects](6.419x_dataanalysis/projects/README.md) and [Machine Learning projects](6.86x_machinelearning/projects/README.md).
+- **Imported references:** a separately labelled collection of external notes under [`resources/jokerdii_notes`](resources/jokerdii_notes/README.md).
+- **Personal learning record:** selected reflections and reports, with personal identifiers intentionally not promoted on this landing page.
 
-4. **Data Analysis: Statistical Modeling and Computation in Applications**
-   - Observational studies, multiple hypothesis testing, high-dimensional data, graph network analysis, time series.
-   - *Challenge:* Working on real-life project and peer-to-peer review.
+The notes are not equally complete. A status marker in the [content map](docs/CONTENT_MAP.md) is more reliable than assuming that every linked file is a finished chapter.
 
-5. **Capstone Exam in Statistics and Data Science**
-   - Comprehensive assessment covering all course topics, synthesizing theoretical knowledge and practical skills.
-   - *Challenge:* Integrative understanding and exam stamina.
+## Why this project exists
 
-## 🚧 Challenges & How to Overcome Them
+The goal is to make a demanding program easier to navigate without pretending that a personal archive is an official syllabus. Each useful contribution should improve at least one of these properties:
 
-- **Mathematical Depth:**
-  - Courses demand rigorous mathematical foundations.
-  - **Tip:** Regularly review foundational mathematics and engage with supplemental resources (MIT OCW, or textbooks).
+1. **Findability:** a learner can reach the right note in one or two clicks.
+2. **Trust:** each item has a source, cohort or date, and clear ownership.
+3. **Reproducibility:** local links work from a fresh clone and examples explain their dependencies.
+4. **Learning value:** summaries distinguish intuition, assumptions, formulas, and limitations.
 
-- **Programming Proficiency:**
-  - Courses require competency in Python for assignments and projects.
-  - **Tip:** Regular practice using libraries like NumPy, pandas, scikit-learn, and TensorFlow. Work on side-projects to reinforce skills.
+If this archive saves you time, [star the repository](https://github.com/damminhtien/mit-micromasters-program-in-statistics-and-data-science) and open an issue with the next broken link or unclear explanation you find.
 
-- **Time Management:**
-  - The intensive pace can overwhelm learners. The program's rigor requires a significant time commitment, with each course demanding 10-14 hours per week over several weeks.
-  - **Tip:** Consistent scheduling, break tasks into smaller segments, and allocate daily or weekly study hours.
+## Citation
 
-## 💡 Practical Tips for Success
-
-- **Active Participation:**
-  - Engage in forum discussions and peer collaboration for diverse perspectives and problem-solving strategies.
-
-- **Hands-on Projects:**
-  - Build side-projects or replicate course projects to deepen your understanding and boost your portfolio.
-
-- **Use External Resources:**
-  - Complement course content with additional tutorials, videos, or textbooks.
-
-- **Regular Revision:**
-  - Frequent revision ensures retention and eases the preparation for the Capstone Exam.
-
-
-## 🛠 Repository Content
-
-- 📂 **Lecture Notes & Summaries:** Curated notes highlighting key concepts and formulas.
-- 📂 **Assignments & Projects:** Solutions, writtern reports, walkthroughs, and explanations for challenging problems.
-- 📂 **Practice Exams & Study Guides:** Preparation resources designed specifically for mastering the final Capstone.
-- 📂 **Resources & Links:** Curated external learning materials and additional reading recommendations.
-
-![Written report](/resources/images/written_report.drawio.png)
-
-## :trophy: Results
-
-Program letter from MIT IDSS
-![letter](/resources/images/letter.png)
-
-Certificate from MIT and EdX
-![cert](/resources/images/cert.png)
-
-and beautiful mind 🧠.
-
-### Happy Learning! 📚🎓🚀
-
+If you reference the archive in a project, use the included [CITATION.cff](CITATION.cff).

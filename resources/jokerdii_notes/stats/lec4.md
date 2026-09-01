@@ -114,7 +114,7 @@ $$
   $$
   Geometrically, the graph of convex $g$ is shown below 
 
-  ![images_u3s2_convex](../assets/images/images_u3s2_convex.svg)
+  > **Image unavailable in this archive:** images_u3s2_convex. Original asset path: `../assets/images/images_u3s2_convex.svg`
 
   Note that for $x_1 = 0, x_2 = 1$, the inequality above can be reinterpreted as follows. Let $X \sim \mathsf{Ber}(1-t)$ for some parameter $0 \leq t \leq 1$, then the left and right hand sides of inequality above can be rewritten respectively as:
   $$

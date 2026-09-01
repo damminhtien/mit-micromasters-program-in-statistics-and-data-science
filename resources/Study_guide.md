@@ -2,6 +2,8 @@
 
 **A guide on how to use the wealth of available material**
 
+> **Provenance:** Supplementary course guidance retained from the original archive. It appears adapted from course material; verify attribution and redistribution terms before copying it elsewhere.
+
 This class provides you with a great wealth of material, perhaps more than you can fully digest. This “guide" offers some tips about how to use this material.
 
 ### **Start with the overview of a unit**
@@ -14,7 +16,7 @@ You may want to download the slides (clean or annotated) at the beginning of eac
 
 ### **Do the exercises!**
 
-The exercises that follow most of the lecture clips are a most critical part of this class. Some of the exercises are simple adaptations of you may have just heard. Other exercises will require more thought. Do your best to solve them right after each clip — do not defer this for later – so that you can consolidate your understanding. After your attempt, whether successful or not, do look at the solutions, which you will be able to see as soon as you submit your own answers.
+The exercises that follow most of the lecture clips are a critical part of this class. Some of the exercises are simple adaptations of what you may have just heard. Other exercises will require more thought. Do your best to solve them right after each clip — do not defer this for later — so that you can consolidate your understanding. After your attempt, whether successful or not, look at the solutions, which you will be able to see as soon as you submit your own answers.
 
 ### **Solved problems and additional materials**
 

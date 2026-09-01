@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If this study archive helped your work, please cite it and verify the linked sources."
+title: "MITx Statistics and Data Science Study Hub"
+type: other
+authors:
+  - family-names: Dam
+    given-names: Minh Tien
+repository-code: "https://github.com/damminhtien/mit-micromasters-program-in-statistics-and-data-science"
+keywords:
+  - statistics
+  - probability
+  - machine learning
+  - data analysis
+  - MITx
+  - MicroMasters

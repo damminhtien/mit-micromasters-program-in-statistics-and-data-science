@@ -2,7 +2,7 @@
 
 * The big picture
 
-  ![U7-lec14-bayes-framework](../assets/images/U7-lec14-bayes-framework.png) 
+  > **Image unavailable in this archive:** U7-lec14-bayes-framework. Original asset path: `../assets/images/U7-lec14-bayes-framework.png`
 
   * Problem types 
     * Hypothesis testing: unknown takes one of few possible values, aim at small probability of incorrect decision.
@@ -20,7 +20,7 @@
 
     Use appropriate version of the Bayes rule to find $p_{X|\Theta}(\cdot | X=x)$ or $f_{X|\Theta}(\cdot |X=x)$.
 
-    ![U7-lec14-bayes-workflow](../assets/images/U7-lec14-bayes-workflow.png)
+    > **Image unavailable in this archive:** U7-lec14-bayes-workflow. Original asset path: `../assets/images/U7-lec14-bayes-workflow.png`
 
   * Point estimates (MAP, LMS)
 
@@ -241,4 +241,3 @@ Alice has two coins. The probability of Heads for the first coin is $1/4$, and t
    \end{aligned}
    $$
    If $p < 1/28$, the prior probability of receiving the first coin is so low that no amount of evidence from $3$ tosses of the coin will make Bob decide he received the first coin.
-

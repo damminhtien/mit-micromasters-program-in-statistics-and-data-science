@@ -144,7 +144,7 @@ L_i &= \text{event that his dog is alive on day }i
 $$
 a) Oscar has two choices represented by the following tree diagrams:
 
-![oscar-dog1](../assets/images/oscar-dog1.jpg)
+> **Image unavailable in this archive:** oscar-dog1. Original asset path: `../assets/images/oscar-dog1.jpg`
 
 Comparing
 $$
@@ -159,7 +159,7 @@ $$
 $$
 c) we get the following diagram
 
-![oscar-dog2](../assets/images/oscar-dog2.jpg)
+> **Image unavailable in this archive:** oscar-dog2. Original asset path: `../assets/images/oscar-dog2.jpg`
 
 The desired probability is
 $$
@@ -167,7 +167,7 @@ $$
 $$
 d) The following diagram illustrates the sequence of possible events
 
-![oscar-dog3](../assets/images/oscar-dog3.png)
+> **Image unavailable in this archive:** oscar-dog3. Original asset path: `../assets/images/oscar-dog3.png`
 
 The desired probability is 
 $$

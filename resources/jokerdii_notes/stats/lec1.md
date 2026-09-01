@@ -2,7 +2,7 @@
 
 * The central dogma in probability and statistics
 
-![central-dogma](../assets/images/central-dogma.png)
+> **Image unavailable in this archive:** central-dogma. Original asset path: `../assets/images/central-dogma.png`
 
 * Modelling assumptions:
 

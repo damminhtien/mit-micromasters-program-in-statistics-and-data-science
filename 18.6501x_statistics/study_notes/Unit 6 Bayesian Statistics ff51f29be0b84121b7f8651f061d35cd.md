@@ -11,7 +11,7 @@ At the end of this lecture, you will be able to do the following:
 - Understand the role and significance of the prior distribution in a Bayesian set-up.
 - Identify the **Beta distribution** and its role in Bayesian statistics as a prior distribution on a one-dimensional parameter.
 
-The Unit 5 slides below, which are for the next **2 lectures** , are also available in the resource tab at the top of this course site.
+The Unit 6 slides below, which are for the next **2 lectures**, are also available in the resource tab at the top of this course site.
 
 Materials: [[slide]](https://courses.edx.org/asset-v1:MITx+18.6501x+1T2022+type@asset+block@lectureslides_chap5-annot.pdf)
 
@@ -55,7 +55,7 @@ Materials: [[slide]](https://courses.edx.org/asset-v1:MITx+18.6501x+1T2022+type@
 
 ### Exercise 2: Frequentist vs. Bayesian II
 
-Which of the following scenarios require a Bayesian approach, rather than a frequestist approach, in order to utilize all information provided? (Choose all that apply.)
+Which of the following scenarios require a Bayesian approach, rather than a frequentist approach, in order to utilize all information provided? (Choose all that apply.)
 
 1. On any given day, the weather is either rainy with probability p, or not rainy, with probability 1-p. If the weather is rainy, then the commute times of individuals are i.i.d. exponential random variables, with parameter \lambda _1. If it is not rainy, then the commute times of individuals are, again, i.i.d. exponential random variables, with parameter \lambda _2. Assume that, you observe commute time of n different individuals to the workplace, and based on this, you want to understand whether the weather is rainy or not.
 2. On any given day, if the weather is rainy, then the commute times of individuals are i.i.d. exponential random variables, with parameter \lambda _1. If it is not rainy, then the commute times of individuals are, again, i.i.d. exponential random variables, with parameter \lambda _2. Assume that, you observe commute time of n different individuals to the workplace, and based on this, you want to understand whether the weather is rainy or not.
@@ -98,11 +98,11 @@ Suppose that a crazy scientist is traveling with his car in the desert. All of a
 Which properties should f_ o(\cdot ) obey in order to result in a valid probability distribution and also reflect the scientist's knowledge of the car? (Choose all that apply.)
 
 1. f_ o(x)\geq 0, for every x\in [0,100].
-2. \displaystyle \int *0^{100}f* o(x)\; dx = 1.
-3. \displaystyle \int *{-\infty }^{0}f* o(x)\; dx =0.
-4. \displaystyle \int *{100}^\infty f* o(x)\; dx= 0.
-5. \max *{x\in [0,100]}f* o(x)=f_ o(50), namely, f_ o(\cdot ) attains its maximum, in the midpoint of the interval.
-6. f_ o(\cdot ) should be a decreasing function, on [0,50), and on (50,\infty ].
+2. \(\displaystyle \int_{0}^{100} f_o(x)\,dx = 1\).
+3. \(\displaystyle \int_{-\infty}^{0} f_o(x)\,dx = 0\).
+4. \(\displaystyle \int_{100}^{\infty} f_o(x)\,dx = 0\).
+5. \(\max_{x\in [0,100]} f_o(x)=f_o(50)\), namely, \(f_o\) attains its maximum at the midpoint of the interval.
+6. \(f_o\) should be a decreasing function on \([0,50)\) and on \((50,\infty)\).
 
 **Solution:**
 
@@ -144,7 +144,7 @@ Setting the first derivative equal to 0, we obtain that, f(\theta ) attains it
     and f(\theta )=\theta (1-\theta ) attains its maximum at 1/2, \pi (\theta ) attains its minimum at 1/2. In addition, \pi (\theta ) is decreasing in [\epsilon , \frac{1}{2}] and increasing in [\frac{1}{2}, 1-\epsilon ], as desired.
     
 
-### Exercise 5: An Observation Model
+### Exercise 6: An Observation Model
 
 Let $\theta \sim \pi (\theta )$ be a parameter supported on \mathbb {Z}, the integers. Suppose that we observe random variables $Y_ i=\theta X_ i$ for i = 1, \ldots , n. The outcomes of X_1, \ldots , X_ n are unknown to you, but you do know that they are i.i.d. and uniformly distributed on the set \{ -1,0,1\}. Assume that X_ i is independent of \theta for all i.
 
@@ -206,17 +206,17 @@ Given that Amy and Ben are two friends, what is the probability that they have t
 
 **Solution:**
 
-- Let [mathjaxinline]E[/mathjaxinline] be the event that Amy and Ben are friends, and let [mathjaxinline]\sigma _ A[/mathjaxinline] denote the view of Amy; and [mathjaxinline]\sigma _ B[/mathjaxinline] denote the view of Ben. Observe that,
+- Let $E$ be the event that Amy and Ben are friends, and let $\sigma _ A$ denote the view of Amy; and $\sigma _ B$ denote the view of Ben. Observe that,
     
     
-    |  | [mathjaxinline]\displaystyle \mathbb {P}(\sigma _ A=\sigma _ B)[/mathjaxinline] | [mathjaxinline]\displaystyle =\mathbb {P}(\sigma _ A=\sigma _ B=\text {Republican})+\mathbb {P}(\sigma _ A=\sigma _ B=\text {Democrat})[/mathjaxinline] |  |  |
+    |  | $\displaystyle \mathbb {P}(\sigma _ A=\sigma _ B)$ | $\displaystyle =\mathbb {P}(\sigma _ A=\sigma _ B=\text {Republican})+\mathbb {P}(\sigma _ A=\sigma _ B=\text {Democrat})$ |  |  |
     | --- | --- | --- | --- | --- |
-    |  |  | [mathjaxinline]\displaystyle =\frac{1}{2}\cdot \frac{1}{2}+\frac{1}{2}\cdot \frac{1}{2}[/mathjaxinline] |  |  |
-    |  |  | [mathjaxinline]\displaystyle =1/2,[/mathjaxinline] |  |  |
+    |  |  | $\displaystyle =\frac{1}{2}\cdot \frac{1}{2}+\frac{1}{2}\cdot \frac{1}{2}$ |  |  |
+    |  |  | $\displaystyle =1/2,$ |  |  |
     
-    where, the first line uses the definition (namely, Amy and Ben have the same political view, if and only if, either both are Democrat; or both are Republican), and the second line uses the independence, and uniformity of the distribution. Similarly, [mathjaxinline]\mathbb {P}(\sigma _ A\neq \sigma _ B)=1/2[/mathjaxinline]. With this,
+    where, the first line uses the definition (namely, Amy and Ben have the same political view, if and only if, either both are Democrat; or both are Republican), and the second line uses the independence, and uniformity of the distribution. Similarly, $\mathbb {P}(\sigma _ A\neq \sigma _ B)=1/2$. With this,
     
-    | [mathjax]\mathbb {P}(E)=\mathbb {P}(E|\sigma _ A=\sigma _ B)\mathbb {P}(\sigma _ A=\sigma _ B)+\mathbb {P}(E|\sigma _ A\neq \sigma _ B)\mathbb {P}(\sigma _ A\neq \sigma _ B)=\frac{a+b}{2},[/mathjax] |  |
+    | $\mathbb {P}(E)=\mathbb {P}(E|\sigma _ A=\sigma _ B)\mathbb {P}(\sigma _ A=\sigma _ B)+\mathbb {P}(E|\sigma _ A\neq \sigma _ B)\mathbb {P}(\sigma _ A\neq \sigma _ B)=\frac{a+b}{2},$ |  |
     | --- | --- |
     
     using the law of total probability.
@@ -224,15 +224,15 @@ Given that Amy and Ben are two friends, what is the probability that they have t
 - Our goal is to compute,
     
     
-    | [mathjax]\mathbb {P}(\sigma _ A=\sigma _ B|E),[/mathjax] |  |
+    | $\mathbb {P}(\sigma _ A=\sigma _ B|E),$ |  |
     | --- | --- |
     
     which, by Bayes' rule;
     
-    |  | [mathjaxinline]\displaystyle \mathbb {P}(\sigma _ A=\sigma _ B|E)[/mathjaxinline] | [mathjaxinline]\displaystyle =\frac{\mathbb {P}(E|\sigma _ A=\sigma _ B)\mathbb {P}(\sigma _ A=\sigma _ B)}{\mathbb {P}(E)}[/mathjaxinline] |  |  |
+    |  | $\displaystyle \mathbb {P}(\sigma _ A=\sigma _ B|E)$ | $\displaystyle =\frac{\mathbb {P}(E|\sigma _ A=\sigma _ B)\mathbb {P}(\sigma _ A=\sigma _ B)}{\mathbb {P}(E)}$ |  |  |
     | --- | --- | --- | --- | --- |
-    |  |  | [mathjaxinline]\displaystyle =\frac{a\cdot (1/2)}{((a+b)/2)}[/mathjaxinline] |  |  |
-    |  |  | [mathjaxinline]\displaystyle =\frac{a}{a+b}.[/mathjaxinline] |  |  |
+    |  |  | $\displaystyle =\frac{a\cdot (1/2)}{((a+b)/2)}$ |  |  |
+    |  |  | $\displaystyle =\frac{a}{a+b}.$ |  |  |
 
 ## 18.2. **The Posterior Distribution, Bayes' Formula**
 
@@ -314,7 +314,7 @@ At the end of this lecture, you will be able to do the following:
 
 ## **19.1. Jeffreys Prior**
 
-**Jeffreys Prior** is an attempt to incorporate frequentist ideas of likelihood in the Bayesian framework, as well as an example of a *non-informative prior*. This prior depends on the statistical model used for the observation data and the likelihood function. Mathematically, it is the prior \pi _{J}(\theta ) that satisfies
+**Jeffreys prior** incorporates likelihood geometry into a Bayesian framework. It is sometimes called an objective prior, but “non-informative” is context-dependent and should not be treated as a universal description. This prior depends on the statistical model and likelihood function. Mathematically, it is the prior \pi _{J}(\theta ) that satisfies
 
 | \pi _{J}(\theta ) \propto \sqrt{\text {det} I(\theta )}, |  |
 | --- | --- |
@@ -326,11 +326,11 @@ In the one-variable case, Jeffreys prior reduces to
 | \pi _{J}(\theta ) \propto \sqrt{I(\theta )}. |  |
 | --- | --- |
 
-The Fisher information matrix I(\theta ) here is treated as a *linear transformation* matrix which maps one coordinate space to another (the logic behind such a mapping would be explained soon). In linear transformation terms, taking the determinant represents the ratio of volumes of corresponding spaces between coordinate system, which explains the intuition behind the use of \text {det} \ I(\theta ).
+The Fisher information matrix \(I(\theta)\) is a positive-semidefinite matrix that measures local sensitivity of the likelihood to changes in the parameter. Its determinant describes the volume scale of that local information geometry, which motivates the multidimensional Jeffreys factor \(\sqrt{\det I(\theta)}\).
 
 ### Fisher Information and MLE Interpretation
 
-Let our parameter of interest be \theta. As computing Jeffreys prior makes use of the Fisher information I(\theta ), it is somehow related to the frequentist MLE approach (which has variance I(\theta )^{-1}). This yields interpretations of Jeffreys prior in terms of frequentist notions of estimation, uncertainty, and information.
+Let our parameter of interest be \(\theta\). As computing Jeffreys prior uses Fisher information \(I(\theta)\), it is related to the frequentist MLE. Under regularity conditions, the MLE has approximate covariance \(I_n(\theta)^{-1}\), where \(I_n\) is the information from all \(n\) observations. This connects Jeffreys prior to local uncertainty, but does not make the Bayesian and frequentist analyses identical.
 
 For each statement, fill in the blank with the appropriate choice (more / less), then choose the option that represents your answers in order.
 
@@ -353,7 +353,7 @@ We examine the Jeffreys prior further. In the (typical) case where we have a sin
 
 This motivates the use of Jeffreys prior. The main motivation for using such a prior is because certain parametrizations may compress meaningful differences in \theta into a small interval, whilst yielding large room for less impactful differences. In this case, a naive approach of using the uniform distribution would give an undue large weight to areas where modifying \theta will not change the outcome much. Jeffreys prior directly adjusts for this through the Fisher information which is closely tied to MLE uncertainty.
 
-This adjustment based on a quantitiative measure of uncertainty facilitates accurate conversion between parametrizations. Scaling based on the square root of the Fisher information allows us to abstract from an artificial view imposed by a particular parametrization into a universal measuring stick of parameter impact. The distribution given by Jeffreys prior is based on this universal measure, independent of our parametrization. As a result, regardless of the parametrization, Jeffreys prior would give the same distribution.
+This adjustment based on a quantitative measure of uncertainty facilitates conversion between parametrizations. The Jeffreys prior is invariant as a prior measure under a smooth one-to-one reparametrization. Its density still changes with the Jacobian, so “the same distribution” does not mean that the numerical density function is unchanged.
 
 Now, it remains to explain why exactly the *square root* of the Fisher information was chosen. Recall that the asymptotic variance of the MLE is I(\theta )^{-1}. Then the uncertainty, in the units of \theta, is measured through the asymptotic standard deviation, which is I(\theta )^{-\frac{1}{2}}. In the multidimensional case, the distribution of the MLE approaches a multivariate Gaussian, where we have to take the square root of the asymptotic variance matrix in order to obtain an expression that's in the same units of the parameter vector and thus quantifies uncertainty accordingly.
 

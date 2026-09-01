@@ -269,7 +269,7 @@ A coin is tossed $30$ times and Heads are obtained $13$ times. Can we conclude t
 > $$
 > P(Z < D_1) = \int _{-\infty }^{-2.82842} \frac{1}{\sqrt{2 \pi }} e^{-x^2/2} \,  dx \approx .00234
 > $$
-> ![lec6-ex35-gaussian](../assets/images/lec6-ex35-gaussian.svg)
+> > **Image unavailable in this archive:** lec6-ex35-gaussian. Original asset path: `../assets/images/lec6-ex35-gaussian.svg`
 > 
 > 3) Hence, for a single experiment, if $p=0.5$, then there is (approximately) a $0.23\%$ chance of seeing an observation smaller than $D_1 \approx -2.82842$. Thus if we run $1000$ experiments, we would expect to see
 >$$
@@ -401,7 +401,7 @@ Regardless of the data, our conclusion will never be to *accept* the null. On ob
 > $$
 > as depicted in the figure below
 >
-> ![lec6-ex36-type1error](../assets/images/lec6-ex36-type1error.svg)
+> > **Image unavailable in this archive:** lec6-ex36-type1error. Original asset path: `../assets/images/lec6-ex36-type1error.svg`
 >
 > If $H_0$ is true, i.e. $\mu = 0$, then $\sqrt{n}\overline{X}_n$ is asymptotically normal. Hence, the total area of the two shaded regions is $\mathbf{P}_{0}(\psi _ C = 1)\, =\, \mathbf{P}_0\left(\sqrt{n} \,  | \overline{X}_ n | > q_{0.05} \right)$, the probability that $H_0$ is rejected even through it is true.
 
@@ -519,7 +519,7 @@ Regardless of the data, our conclusion will never be to *accept* the null. On ob
 >
 > $1.\quad 1.\\2. \quad \left({1/2\over \theta}\right)^2,\quad 1,\quad 0. \\ 3. \quad 0.\\ 4.$
 >
-> ![lec6-ex38](../assets/images/lec6-ex38.png)
+> > **Image unavailable in this archive:** lec6-ex38. Original asset path: `../assets/images/lec6-ex38.png`
 >
 > $5. \quad 0.\\6. \quad C < 1/2.\\7.\quad C=\frac{1}{2}\sqrt[n]{1-\alpha }$
 >

@@ -191,7 +191,7 @@ B &= \mathbf{P}(-C \leq Z \leq C)
 $$
 where $\mathbf{P}$ is the probability distribution of $\mathbf{N}(0,1)$.
 
-![images_u2s5_normalTn_areas](../assets/images/images_u2s5_normalTn_areas.svg)
+> **Image unavailable in this archive:** images_u2s5_normalTn_areas. Original asset path: `../assets/images/images_u2s5_normalTn_areas.svg`
 
 1. What is the smallest $C$ such that the test $\psi(T_n > C)$ has asymptotic level $\alpha$? 
 
@@ -229,7 +229,7 @@ P(Z<-C_\alpha )+P(Z>C_\alpha )\, =\, A+A=2A\qquad Z\sim \mathcal{N}(0,1)
 $$
 will result in a test $\psi = \mathbf{1}(T_n > C_\alpha)$ that has asymptotic level $\alpha$. Furthermore, for any threshold $C < C_\alpha$ will yield a larger asymptotic type 1 error, as shown in the figure below.
 
-![images_u2s5_normalTn_smallerC](../assets/images/images_u2s5_normalTn_smallerC.svg)
+> **Image unavailable in this archive:** images_u2s5_normalTn_smallerC. Original asset path: `../assets/images/images_u2s5_normalTn_smallerC.svg`
 
 For $C < C_\alpha$, the type 1 error for $\psi = \mathbf{1}(T_n > C)$ (shaded blue) is larger than the type 1 error for $\psi = \mathbf{1}(T_n > C_\alpha)$ (shaded orange).
 
@@ -369,7 +369,7 @@ $$
 >
 > Consider the following graph of this hypothesis testing set-up.
 >
-> ![images_u2s4_hypotest_graph](../assets/images/images_u2s4_hypotest_graph.svg)
+> > **Image unavailable in this archive:** images_u2s4_hypotest_graph. Original asset path: `../assets/images/images_u2s4_hypotest_graph.svg`
 >
 > * Continuous curve on the left: type 1 error, $\alpha_\psi$, graphed as a function of $\theta$.
 > * Continuous curve on the right: type 2 error, $\beta_\psi$, graphed as a function of $\theta$.
@@ -431,7 +431,7 @@ $$
 $$
 The shaded region corresponds the type 1 error $\alpha_{\psi_n}(\mu_0)$ for large $n$.
 
-![lec7-4-type1error](../assets/images/lec7-4-type1error.png)
+> **Image unavailable in this archive:** lec7-4-type1error. Original asset path: `../assets/images/lec7-4-type1error.png`
 
 At $\mu = \mu_0$ and when $n$ is large, $T_n \sim \mathcal{N}(0,1)$ by the CLT. Therefore, when $n$ is large, the type 1 error $\mathbf{P}_{\mu _0}\left(T_ n>q_{\alpha }\right)$ is geometrically approximately the area of the "right tail" of standard normal distribution defined by the line $T_n = q_\alpha$.
 
@@ -447,7 +447,7 @@ which is the area of the "right tail" of the distribution of $\overline{X}_n$ to
 
 The graph of the distribution of $\overline{X}_n$ for $\mu < \mu_0$ is as follows. It is a single shift without rescaling, since the variance of $X$ is fixed at $\sigma$.
 
-![images_u2s5_errortrend_Xnbar_shiftleft](../assets/images/images_u2s5_errortrend_Xnbar_shiftleft.svg)
+> **Image unavailable in this archive:** images_u2s5_errortrend_Xnbar_shiftleft. Original asset path: `../assets/images/images_u2s5_errortrend_Xnbar_shiftleft.svg`
 
 As $\mu$ decreases from $\mu_0$ (i.e. moving away from the boundary of $\Theta_0$ and $\Theta_1$), the type 1 error $\alpha_{\psi_n}(\mu)$ decreases. The threshold is
 $$
@@ -455,7 +455,7 @@ $$
 $$
 Since the type 1 error $\alpha _{\psi _ n}(\mu )=\mathbf{P}_{\mu }(\overline{X}_ n>\tau )$ is the area of the tail to the right of $\tau$, we see that the type 1 error continues to decrease as $\mu$ (and the distribution of $\overline{X}_n$) moves to the left.
 
-![images_u2s5_errortrend_Xnbar_shiftleft_witherror](../assets/images/images_u2s5_errortrend_Xnbar_shiftleft_witherror.svg)
+> **Image unavailable in this archive:** images_u2s5_errortrend_Xnbar_shiftleft_witherror. Original asset path: `../assets/images/images_u2s5_errortrend_Xnbar_shiftleft_witherror.svg`
 
 **Remark**: The type 2 error $\beta _{\psi _ n}(\mu )=1-\mathbf{P}_{\mu }(\overline{X}_ n>\tau )$ decreases as $\mu$ increases from $\mu_0$.
 
@@ -610,7 +610,7 @@ where $Z \sim \mathcal{N}(0,1)$. This gives a p-value of $\approx 0.0047$ or rou
 >
 > With this setup, you observe a data set and compute $T_n$. Consider the following figure.
 >
-> ![images_u2s5_visualizing_pvalue](../assets/images/images_u2s5_visualizing_pvalue.svg)
+> > **Image unavailable in this archive:** images_u2s5_visualizing_pvalue. Original asset path: `../assets/images/images_u2s5_visualizing_pvalue.svg`
 >
 > 1. On which side, **to the left** or **to the right**, of $T_n$ should the value $q_{\eta/2}$ be such that $\psi_n$ rejects on our data set?
 >

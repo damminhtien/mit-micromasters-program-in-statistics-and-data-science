@@ -114,7 +114,7 @@ $$
 
 Let $X \sim \mathbf{P}$ and $Y \sim \mathbf{P}$ be Gaussian random variables with mean $0$. Let $f$ denote the probability density function of $X$ and $g$ denote the density of $Y$. The graphical interpretation of $2\text {TV}(\mathbf{P}, \mathbf{Q})$ is
 
-![images_u3s1_areabetweencurves](../assets/images/images_u3s1_areabetweencurves.svg)
+> **Image unavailable in this archive:** images_u3s1_areabetweencurves. Original asset path: `../assets/images/images_u3s1_areabetweencurves.svg`
 
 ## 4. Properties of Total Variation Distance
 

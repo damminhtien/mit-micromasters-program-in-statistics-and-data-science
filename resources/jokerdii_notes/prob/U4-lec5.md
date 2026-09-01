@@ -132,7 +132,7 @@ $$
 $$
 This can be understood from the diagram below
 
-![lec5_prob2](../assets/images/lec5_prob2.png)
+> **Image unavailable in this archive:** lec5_prob2. Original asset path: `../assets/images/lec5_prob2.png`
 
 ## Problem 2.2 From tail probabilities to expectations
 

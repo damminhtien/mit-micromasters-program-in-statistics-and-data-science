@@ -141,7 +141,7 @@ Here, $q_\alpha =q_\alpha (\sup _{t \in [0,1]}\left| \mathbb {B}(t) \right|)\,$�
 
 **Example:**
 
-![images_u4s6_KSstat](../assets/images/images_u4s6_KSstat.svg)
+> **Image unavailable in this archive:** images_u4s6_KSstat. Original asset path: `../assets/images/images_u4s6_KSstat.svg`
 
 An example of the empirical cdf $\, F_ n(x_{(1)},x_{(2)},x_{(3)},x_{(4)})\,$​​ for a specific data set $x_{(1)},x_{(2)},x_{(3)},x_{(4)}$​​ of sample size $4$​​, and the cdf $F_X(x)$​​ under the null hypothesis. We see that because $F^0(t)$​​ is increasing, and $F_n(t)$​​ is piecewise constant, $\bigg| F_ n(t) - F^0(t) \bigg|$​​ can only possibly achieve its maximum at $t=x_{(i)}$​.
 
@@ -433,5 +433,5 @@ Four patterns of QQ plots:
 * Right skewed
 * Left skewed
 
-![How to interpret a QQ plot - Cross Validated](../assets/images/qqplot4p.png)
+> **Image unavailable in this archive:** How to interpret a QQ plot - Cross Validated. Original asset path: `../assets/images/qqplot4p.png`
 

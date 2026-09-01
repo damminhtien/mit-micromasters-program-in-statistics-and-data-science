@@ -106,8 +106,8 @@ Is the following function convex?
 
 The loss function is not convex. We can see this two ways:
 
-- The function has a maximum, so there is location [mathjaxinline]w'[/mathjaxinline] where [mathjaxinline]f^{\prime \prime }(w') < 0[/mathjaxinline], thus the function is not convex by the second order derivative argument.
-- There are multiple choices of [mathjaxinline]w_0[/mathjaxinline] (particularly on the left hand side of the curve) where the tangent line does not form a lower bound. That is, if we drew the tangent line at one of these points, part of the curve would intersect with the tangent line and go below it. Thus the function is not convex by the tangent lower bound argument.
+- The function has a maximum, so there is location $w'$ where $f^{\prime \prime }(w') < 0$, thus the function is not convex by the second order derivative argument.
+- There are multiple choices of $w_0$ (particularly on the left hand side of the curve) where the tangent line does not form a lower bound. That is, if we drew the tangent line at one of these points, part of the curve would intersect with the tangent line and go below it. Thus the function is not convex by the tangent lower bound argument.
 
 ### Chord convexity
 
@@ -166,7 +166,7 @@ And which of those functions have a global minimum?
 
 - [ ]  
 
-Function (A) is indeed convex, as the second derivative of [mathjaxinline]e^ x[/mathjaxinline] is [mathjaxinline]e^ x[/mathjaxinline] which is positive everywhere. However, it does not have a global minimum, as it has no critical points: [mathjaxinline]e^ x \neq 0[/mathjaxinline] everywhere.
+Function (A) is indeed convex, as the second derivative of $e^ x$ is $e^ x$ which is positive everywhere. However, it does not have a global minimum, as it has no critical points: $e^ x \neq 0$ everywhere.
 
 Function (B) is also convex. Remember that the definitions of convexity use greater-than-or-equal relations. The second derivative of a line may be zero, but this is technically non-negative as so the line is convex. There is a more restrictive form of convexity called strict convexity that the line does not posses. Much like the exponential, the line has no global minimum despite being convex, as the derivative is non-zero everywhere and thus there are no critical points.
 
@@ -174,7 +174,7 @@ Function (C) is a peicewise function, that is composed of two quadratics. Each q
 
 Function (D) is not convex, though it may look like it at first. Careful examination of the curve will show that it fails the chord and tangent lower bound criteria (consider the tangent near the edges of the bell). If we take the second derivative, we also find that there are places where it is negative, so it fails this criterion too. However, it does have a global minimum, as there is just one critical point and the second derivative is positive at that point.
 
-Something important to consider is that if we take function (D), and transform it using a logarithm, [mathjaxinline]f(w)' = -\ln {(-f(w))} = x^2[/mathjaxinline] then we get a convex function with a global minimum. It is common to use transformation to turn non-convex problems into convex one, and the logarithm is a very common transformation for doing this.
+Something important to consider is that if we take function (D), and transform it using a logarithm, $f(w)' = -\ln {(-f(w))} = x^2$ then we get a convex function with a global minimum. It is common to use transformation to turn non-convex problems into convex one, and the logarithm is a very common transformation for doing this.
 
 # **2. Multidimensional convexity and local optimization**
 

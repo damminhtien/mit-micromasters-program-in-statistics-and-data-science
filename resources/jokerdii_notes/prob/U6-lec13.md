@@ -163,7 +163,7 @@ $$
 $$
 We pick the first one (condition on $X$), because when $x$ is fixed, the PDF of $Y$ conditioning on $X$ is uniformly distributed between $[x,x+1]$, as shown in the figure below. 
 
-![u6-lec13-prob1](../assets/images/u6-lec13-prob1.png)
+> **Image unavailable in this archive:** u6-lec13-prob1. Original asset path: `../assets/images/u6-lec13-prob1.png`
 
 First compute $\mathbf{E}[X+Y | X] $,
 $$

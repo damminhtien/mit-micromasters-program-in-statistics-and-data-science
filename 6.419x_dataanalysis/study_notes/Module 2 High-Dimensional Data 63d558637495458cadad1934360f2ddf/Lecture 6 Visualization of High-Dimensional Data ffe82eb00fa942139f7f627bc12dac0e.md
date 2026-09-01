@@ -241,7 +241,7 @@ Therefore, the element \(\Sigma_{ij}\) is:
 
 but it does not account for the expectation of the product. So this option is also not correct by itself.
 
-1. **c) \((\mathbf{E}[ \mathbf{X} \mathbf{X}^T])*{ij} - (\mathbf{E}[\mathbf{X}] \mathbf{E}[\mathbf{X}]^T)*{ij}\)**
+1. **c) \(\left(\mathbf{E}[\mathbf{X}\mathbf{X}^T]\right)_{ij} - \left(\mathbf{E}[\mathbf{X}]\mathbf{E}[\mathbf{X}]^T\right)_{ij}\)**
     
     This option directly represents the element \(\Sigma_{ij}\) in the covariance matrix. It is correct.
     
@@ -262,7 +262,7 @@ To summarize:
 
 - The correct answers for \(\Sigma_{ij}\) are:
     
-    **c) \((\mathbf{E}[ \mathbf{X} \mathbf{X}^T])*{ij} - (\mathbf{E}[\mathbf{X}] \mathbf{E}[\mathbf{X}]^T)*{ij}\)**
+    **c) \(\left(\mathbf{E}[\mathbf{X}\mathbf{X}^T]\right)_{ij} - \left(\mathbf{E}[\mathbf{X}]\mathbf{E}[\mathbf{X}]^T\right)_{ij}\)**
     
     **d) \(\mathbf{E}[ \mathbf{X}_i \mathbf{X}_j] - \mathbf{E}[\mathbf{X}]_i \mathbf{E}[\mathbf{X}]_j\)**
     
@@ -755,69 +755,69 @@ Summary
 
 ## **1. Projection onto a Line**
 
-Let [mathjaxinline]\mathbf{u}\in \mathbb {R^ d}[/mathjaxinline] denote a unit vector (*i.e.*, [mathjaxinline]\sum _{i = 1}^ d (\mathbf{u}^ i)^2 = 1[/mathjaxinline]). In this unit, we will frequently refer to a unit vector as a **direction** , because we are primarily interested in the direction in which [mathjaxinline]\mathbf{u}[/mathjaxinline] is pointing.
+Let $\mathbf{u}\in \mathbb {R^ d}$ denote a unit vector (*i.e.*, $\sum _{i = 1}^ d (\mathbf{u}^ i)^2 = 1$). In this unit, we will frequently refer to a unit vector as a **direction** , because we are primarily interested in the direction in which $\mathbf{u}$ is pointing.
 
-In general, the **projection** of a vector [mathjaxinline]\mathbf{x}\in \mathbb {R}^ d[/mathjaxinline] onto a **unit vector** [mathjaxinline]\mathbf{u}[/mathjaxinline] is defined to be
+In general, the **projection** of a vector $\mathbf{x}\in \mathbb {R}^ d$ onto a **unit vector** $\mathbf{u}$ is defined to be
 
-| [mathjax]\text {proj}_{\mathbf{u}} \mathbf{x}:= \left(\mathbf{u}\cdot \mathbf{x}\right) \mathbf{u}.[/mathjax] |  |
+| $\text {proj}_{\mathbf{u}} \mathbf{x}:= \left(\mathbf{u}\cdot \mathbf{x}\right) \mathbf{u}.$ |  |
 | --- | --- |
 
-Note that if the vector onto which we project is not given as a unit vector but a vector, say [mathjaxinline]\mathbf v[/mathjaxinline], with length [mathjaxinline]\left\| \mathbf v \right\|[/mathjaxinline], then form the unit vector [mathjaxinline]\, \displaystyle \mathbf{u}=\frac{\mathbf v}{\left\| v \right\| }[/mathjaxinline] and apply the same formula as above: [mathjaxinline]\, \displaystyle \text {proj}_{\mathbf v} \mathbf{x}\, = \, \left(\frac{\mathbf v}{\left\| \mathbf v \right\| } \cdot \mathbf{x}\right) \frac{\mathbf v}{\left\| \mathbf v \right\| }\, =\, \left(\frac{\mathbf v\cdot \mathbf{x}}{\left\| \mathbf v \right\| ^2} \right) \mathbf v.[/mathjaxinline]
+Note that if the vector onto which we project is not given as a unit vector but a vector, say $\mathbf v$, with length $\left\| \mathbf v \right\|$, then form the unit vector $\, \displaystyle \mathbf{u}=\frac{\mathbf v}{\left\| v \right\| }$ and apply the same formula as above: $\, \displaystyle \text {proj}_{\mathbf v} \mathbf{x}\, = \, \left(\frac{\mathbf v}{\left\| \mathbf v \right\| } \cdot \mathbf{x}\right) \frac{\mathbf v}{\left\| \mathbf v \right\| }\, =\, \left(\frac{\mathbf v\cdot \mathbf{x}}{\left\| \mathbf v \right\| ^2} \right) \mathbf v.$
 
-In this problem, we set [mathjaxinline]d = 2[/mathjaxinline] and let [mathjaxinline]\mathbf{u}= \frac{1}{\sqrt{5}}(1, 2)^ T[/mathjaxinline]. Suppose we have a data set consisting of three points given by
+In this problem, we set $d = 2$ and let $\mathbf{u}= \frac{1}{\sqrt{5}}(1, 2)^ T$. Suppose we have a data set consisting of three points given by
 
-|  | [mathjaxinline]\displaystyle \mathrm{{\boldsymbol X}}_1[/mathjaxinline] | [mathjaxinline]\displaystyle = (1,2)^ T[/mathjaxinline] |  |  |
+|  | $\displaystyle \mathrm{{\boldsymbol X}}_1$ | $\displaystyle = (1,2)^ T$ |  |  |
 | --- | --- | --- | --- | --- |
-|  | [mathjaxinline]\displaystyle \mathrm{{\boldsymbol X}}_2[/mathjaxinline] | [mathjaxinline]\displaystyle = (3,4)^ T[/mathjaxinline] |  |  |
-|  | [mathjaxinline]\displaystyle \mathrm{{\boldsymbol X}}_3[/mathjaxinline] | [mathjaxinline]\displaystyle = (-1, 0)^ T.[/mathjaxinline] |  |  |
+|  | $\displaystyle \mathrm{{\boldsymbol X}}_2$ | $\displaystyle = (3,4)^ T$ |  |  |
+|  | $\displaystyle \mathrm{{\boldsymbol X}}_3$ | $\displaystyle = (-1, 0)^ T.$ |  |  |
 
-Find the vectors [mathjaxinline]\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_1[/mathjaxinline], [mathjaxinline]\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_2[/mathjaxinline], and [mathjaxinline]\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_3[/mathjaxinline]. (Also plot them on a piece of paper.)
+Find the vectors $\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_1$, $\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_2$, and $\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_3$. (Also plot them on a piece of paper.)
 
-Note that [mathjaxinline]\mathbf{u}[/mathjaxinline] is a unit vector:
+Note that $\mathbf{u}$ is a unit vector:
 
-| [mathjax]\left\| \mathbf{u} \right\| _2^2 = \frac{1}{5} (1^2 + 2^2) = 1.[/mathjax] |  |
+| $\left\| \mathbf{u} \right\| _2^2 = \frac{1}{5} (1^2 + 2^2) = 1.$ |  |
 | --- | --- |
 
 By this fact and the given formula for the projection, we see that
 
-|  | [mathjaxinline]\displaystyle \text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_1[/mathjaxinline] | [mathjaxinline]\displaystyle = (\frac{1}{\sqrt{5}} (1,2)^ T \frac{1}{\sqrt{5}} \cdot (1,2)^ T) \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix}[/mathjaxinline] |  |  |
+|  | $\displaystyle \text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_1$ | $\displaystyle = (\frac{1}{\sqrt{5}} (1,2)^ T \frac{1}{\sqrt{5}} \cdot (1,2)^ T) \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix}$ |  |  |
 | --- | --- | --- | --- | --- |
-|  | [mathjaxinline]\displaystyle \text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_2[/mathjaxinline] | [mathjaxinline]\displaystyle = (\frac{1}{\sqrt{5}} (1,2)^ T \cdot (3,4)^ T) \frac{1}{\sqrt{5}} \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix} = \begin{pmatrix} \frac{11}{5} \\ \frac{22}{5} \\ \end{pmatrix} \approx \begin{pmatrix} 2.2 \\ 4.4 \end{pmatrix}[/mathjaxinline] |  |  |
-|  | [mathjaxinline]\displaystyle \text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_3[/mathjaxinline] | [mathjaxinline]\displaystyle = (\frac{1}{\sqrt{5}} (1,2)^ T \cdot (-1,0)^ T) \frac{1}{\sqrt{5}} \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix} = \begin{pmatrix} -0.2 \\ -0.4 \\ \end{pmatrix}[/mathjaxinline] |  |  |
+|  | $\displaystyle \text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_2$ | $\displaystyle = (\frac{1}{\sqrt{5}} (1,2)^ T \cdot (3,4)^ T) \frac{1}{\sqrt{5}} \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix} = \begin{pmatrix} \frac{11}{5} \\ \frac{22}{5} \\ \end{pmatrix} \approx \begin{pmatrix} 2.2 \\ 4.4 \end{pmatrix}$ |  |  |
+|  | $\displaystyle \text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_3$ | $\displaystyle = (\frac{1}{\sqrt{5}} (1,2)^ T \cdot (-1,0)^ T) \frac{1}{\sqrt{5}} \begin{pmatrix} 1 \\ 2 \\ \end{pmatrix} = \begin{pmatrix} -0.2 \\ -0.4 \\ \end{pmatrix}$ |  |  |
 
 **Remark 1**
 
-: Observe that the point [mathjaxinline](1,2)^ T[/mathjaxinline] is already on the line that points in the direction of [mathjaxinline]\mathbf{u}[/mathjaxinline]. Hence, the projection of this point onto [mathjaxinline]\mathbf{u}[/mathjaxinline] leaves this point fixed.
+: Observe that the point $(1,2)^ T$ is already on the line that points in the direction of $\mathbf{u}$. Hence, the projection of this point onto $\mathbf{u}$ leaves this point fixed.
 
 **Remark 2**
 
-: A geometric interpretation of [mathjaxinline]\text {proj}_{\mathbf{u}} \mathbf{x}[/mathjaxinline] is given by the following. Consider the line [mathjaxinline]L_1[/mathjaxinline] that points in the direction of [mathjaxinline]\mathbf{u}[/mathjaxinline]. Formally, this is defined as
+: A geometric interpretation of $\text {proj}_{\mathbf{u}} \mathbf{x}$ is given by the following. Consider the line $L_1$ that points in the direction of $\mathbf{u}$. Formally, this is defined as
 
-| [mathjax]L_1 := \{ \lambda \mathbf{u}: \, \lambda \in \mathbb {R} \} .[/mathjax] |  |
+| $L_1 := \{ \lambda \mathbf{u}: \, \lambda \in \mathbb {R} \} .$ |  |
 | --- | --- |
 
-Now consider the (unique) line [mathjaxinline]L_2[/mathjaxinline] that has the following properties:
+Now consider the (unique) line $L_2$ that has the following properties:
 
-- It passes through the endpoint of the vector [mathjaxinline]\mathbf{x}[/mathjaxinline],
-- it passes through a point on the line [mathjaxinline]L_1[/mathjaxinline], and
-- it is perpendicular to [mathjaxinline]L_1[/mathjaxinline].
+- It passes through the endpoint of the vector $\mathbf{x}$,
+- it passes through a point on the line $L_1$, and
+- it is perpendicular to $L_1$.
 
-The **intersection** of [mathjaxinline]L_1[/mathjaxinline] and [mathjaxinline]L_2[/mathjaxinline] is defined to be the endpoint of the vector [mathjaxinline]\text {proj}_{\mathbf{u}} \mathbf{x}[/mathjaxinline].
+The **intersection** of $L_1$ and $L_2$ is defined to be the endpoint of the vector $\text {proj}_{\mathbf{u}} \mathbf{x}$.
 
 You should compare this definition with the formula given for the projection and see, at least visually, that they give the same result.
 
 ## **2. Empirical Variance of a Data Set in a Given Direction**
 
-Consider the statistical set-up from the previous problem. In particular, recall that [mathjaxinline]\mathbf{u}= \frac{1}{\sqrt{5}} (1,2)^ T[/mathjaxinline] and
+Consider the statistical set-up from the previous problem. In particular, recall that $\mathbf{u}= \frac{1}{\sqrt{5}} (1,2)^ T$ and
 
-|  | [mathjaxinline]\displaystyle \mathrm{{\boldsymbol X}}_1 \, =\, \begin{pmatrix} 1\\ 2\end{pmatrix},\, \mathrm{{\boldsymbol X}}_2 \, = \, \begin{pmatrix} 3\\ 4\end{pmatrix},\, \mathrm{{\boldsymbol X}}_3 \, =\, \begin{pmatrix} -1 \\ 0\end{pmatrix}.[/mathjaxinline] |  |  |
+|  | $\displaystyle \mathrm{{\boldsymbol X}}_1 \, =\, \begin{pmatrix} 1\\ 2\end{pmatrix},\, \mathrm{{\boldsymbol X}}_2 \, = \, \begin{pmatrix} 3\\ 4\end{pmatrix},\, \mathrm{{\boldsymbol X}}_3 \, =\, \begin{pmatrix} -1 \\ 0\end{pmatrix}.$ |  |  |
 | --- | --- | --- | --- |
 
-Observe that for [mathjaxinline]i = 1,2,3[/mathjaxinline], the number [mathjaxinline]\mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i[/mathjaxinline] (where [mathjaxinline]\mathbf{u}[/mathjaxinline] is a unit vector) gives the **signed distance** from the origin to the endpoint of the projection [mathjaxinline]\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_ i[/mathjaxinline]. By **signed distance** , we mean that [mathjaxinline]\left| \mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i \right|[/mathjaxinline] is the length of [mathjaxinline]\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_ i[/mathjaxinline] and
+Observe that for $i = 1,2,3$, the number $\mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i$ (where $\mathbf{u}$ is a unit vector) gives the **signed distance** from the origin to the endpoint of the projection $\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_ i$. By **signed distance** , we mean that $\left| \mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i \right|$ is the length of $\text {proj}_{\mathbf{u}} \mathrm{{\boldsymbol X}}_ i$ and
 
-|  | [mathjaxinline]\displaystyle \mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i > 0[/mathjaxinline] | [mathjaxinline]\displaystyle \Longrightarrow \mathrm{{\boldsymbol X}}_ i \, \, \text {points approximately in the direction of } \, \mathbf{u}[/mathjaxinline] |  |  |
+|  | $\displaystyle \mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i > 0$ | $\displaystyle \Longrightarrow \mathrm{{\boldsymbol X}}_ i \, \, \text {points approximately in the direction of } \, \mathbf{u}$ |  |  |
 | --- | --- | --- | --- | --- |
-|  | [mathjaxinline]\displaystyle \mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i < 0[/mathjaxinline] | [mathjaxinline]\displaystyle \Longrightarrow \mathrm{{\boldsymbol X}}_ i \, \, \text {points approximately in the opposite direction of } \, \mathbf{u}\,[/mathjaxinline] |  |  |
+|  | $\displaystyle \mathbf{u}\cdot \mathrm{{\boldsymbol X}}_ i < 0$ | $\displaystyle \Longrightarrow \mathrm{{\boldsymbol X}}_ i \, \, \text {points approximately in the opposite direction of } \, \mathbf{u}\,$ |  |  |
 
 Compute the empirical variance of the data set
 
@@ -872,28 +872,28 @@ Summary
 
 This problem illustrates some of the main ideas behind principal component analysis, which will be explored in detail later in this lecture as well as the next lecture.
 
-Let [mathjaxinline]\mathrm{{\boldsymbol X}}_1, \ldots , \mathrm{{\boldsymbol X}}_ n \in \mathbb {R}^ d[/mathjaxinline] denote a data set, and let [mathjaxinline]\mathbb {X}[/mathjaxinline] denote the matrix whose [mathjaxinline]i[/mathjaxinline]-th row is [mathjaxinline]\mathrm{{\boldsymbol X}}_ i^ T[/mathjaxinline]. Let
+Let $\mathrm{{\boldsymbol X}}_1, \ldots , \mathrm{{\boldsymbol X}}_ n \in \mathbb {R}^ d$ denote a data set, and let $\mathbb {X}$ denote the matrix whose $i$-th row is $\mathrm{{\boldsymbol X}}_ i^ T$. Let
 
-| [mathjax]S = \frac{1}{n} \mathbb {X}^ T \left(I_ n - \frac{1}{n} \mathbf{1} \mathbf{1}^ T \right) \mathbb {X}[/mathjax] |  |
+| $S = \frac{1}{n} \mathbb {X}^ T \left(I_ n - \frac{1}{n} \mathbf{1} \mathbf{1}^ T \right) \mathbb {X}$ |  |
 | --- | --- |
 
 denote the empirical covariance matrix for this data set.
 
 Consider the optimization problem
 
-| [mathjax]\displaystyle \text {argmax}_{\mathbf{u}: \left\| \mathbf{u} \right\| _2^2 =1 } \mathbf{u}^ T S \mathbf{u}.[/mathjax] |  |
+| $\displaystyle \text {argmax}_{\mathbf{u}: \left\| \mathbf{u} \right\| _2^2 =1 } \mathbf{u}^ T S \mathbf{u}.$ |  |
 | --- | --- |
 
-Let [mathjaxinline]\mathbf{u}^*[/mathjaxinline] denote the unit vector that maximizes [mathjaxinline]\mathbf{u}^ T S \mathbf{u}[/mathjaxinline].
+Let $\mathbf{u}^*$ denote the unit vector that maximizes $\mathbf{u}^ T S \mathbf{u}$.
 
 Consider the optimization problem
 
-| [mathjax]\displaystyle \text {argmax}_{\mathbf{u}: \left\| \mathbf{u} \right\| _2^2 =1 } \mathbf{u}^ T S \mathbf{u}.[/mathjax] |  |
+| $\displaystyle \text {argmax}_{\mathbf{u}: \left\| \mathbf{u} \right\| _2^2 =1 } \mathbf{u}^ T S \mathbf{u}.$ |  |
 | --- | --- |
 
-Let [mathjaxinline]\mathbf{u}^*[/mathjaxinline] denote the unit vector that maximizes [mathjaxinline]\mathbf{u}^ T S \mathbf{u}[/mathjaxinline].
+Let $\mathbf{u}^*$ denote the unit vector that maximizes $\mathbf{u}^ T S \mathbf{u}$.
 
-Which of the following is a correct interpretation of [mathjaxinline]\mathbf{u}^*[/mathjaxinline]? (Choose all that apply.)
+Which of the following is a correct interpretation of $\mathbf{u}^*$? (Choose all that apply.)
 
 To solve the optimization problem and interpret \(\mathbf{u}^*\), let's first understand the optimization problem itself:
 

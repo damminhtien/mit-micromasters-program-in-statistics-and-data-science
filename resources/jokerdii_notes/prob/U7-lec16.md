@@ -203,7 +203,7 @@ Continuous random variables $X$ and $Y$ have a joint PDF given by
 $$
 f_{X,Y}(x,y) = \begin{cases} 2/3, &  \text{if } (x,y) \text{ belongs to the closed shaded region,} \\ 0, &  \text{otherwise.} \end{cases}
 $$
-![images_8_3_lms_2_02](/Users/dizhen/Git/Notebooks/probability-and-statistics-notes/docs/assets/images/images_8_3_lms_2_02.png)
+> **Image unavailable in this archive:** images_8_3_lms_2_02. Original asset path: `/Users/dizhen/Git/Notebooks/probability-and-statistics-notes/docs/assets/images/images_8_3_lms_2_02.png`
 
 We want to estimate $Y$ based on $X$.
 

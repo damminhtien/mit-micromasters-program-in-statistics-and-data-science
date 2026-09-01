@@ -47,7 +47,7 @@
 
 * Exponential random variables $\lambda > 0$
 
-  ![U5-lec8-exponential](../assets/images/U5-lec8-exponential.png)
+  > **Image unavailable in this archive:** U5-lec8-exponential. Original asset path: `../assets/images/U5-lec8-exponential.png`
 
   | Geometric (discrete)          | Exponential (continuous)                                     |
   | ----------------------------- | ------------------------------------------------------------ |

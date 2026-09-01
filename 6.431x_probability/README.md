@@ -18,7 +18,7 @@
 - Have facility manipulating **probability mass functions, densities,** and **expectations**
 - Develop a solid understanding of the concept of **conditional expectation** and its role in inference
 - Understand the power of **laws of large numbers** and be able to use them when appropriate
-- Become familiar with the basis inference methodologies (for both **estimation** and **hypothesis testing**) and be able to apply them
+- Become familiar with basic inference methodologies (for both **estimation** and **hypothesis testing**) and be able to apply them
 - Acquire a good understanding of two **basic stochastic processes** (Bernoulli and Poisson) and their use in modeling
 - Learn how to formulate simple dynamical models as **Markov chains** and analyze them
 
@@ -31,7 +31,7 @@ How do we do it:
 What this class is not:
 
 - Not a lay science introduction/ overview of probability
-- Not much in term of:
+- Not much in terms of:
     - specific applications
     - computational exercises
     - demos
@@ -42,7 +42,7 @@ What this class is not:
 2. Probability is also part of scientific literacy
     1. Complex systems → uncertainty
     2. Information society
-    3. data/ info exit to reduce uncertainty
+    3. Data and information exist to reduce uncertainty
 
 Where is probability useful? Everywhere!
 

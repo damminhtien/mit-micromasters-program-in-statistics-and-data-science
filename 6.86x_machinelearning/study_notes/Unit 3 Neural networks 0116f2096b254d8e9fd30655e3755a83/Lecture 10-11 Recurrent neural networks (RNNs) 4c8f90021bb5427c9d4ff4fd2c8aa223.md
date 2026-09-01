@@ -16,7 +16,7 @@ An inconvenient aspect of feed-forward networks is that we have to manually engi
 
 ### Explanation of the RNN
 
-![Untitled](Lecture%2010-11%20Recurrent%20neural%20networks%20(RNNs)%204c8f90021bb5427c9d4ff4fd2c8aa223/Untitled.png)
+![RNN state update](<Lecture%2010-11%20Recurrent%20neural%20networks%20(RNNs)%204c8f90021bb5427c9d4ff4fd2c8aa223/Untitled.png>)
 
 The image illustrates the update mechanism in an RNN. It shows the transition from one state (or context) to a new state based on new information:
 

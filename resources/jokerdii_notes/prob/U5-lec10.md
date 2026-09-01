@@ -183,7 +183,7 @@ $$
 
 Sophia is vacationing in Monte Carlo. On any given night, she takes $X$ dollars to the casino and returns with $Y$ dollars. The random variable $X$ has the PDF shown in the figure. Conditional on $X = x$, the continuous random variable $Y$ is uniformly distributed between zero and $3x$.
 
-![lec10-prob2](../assets/images/lec10-prob2.jpg)
+> **Image unavailable in this archive:** lec10-prob2. Original asset path: `../assets/images/lec10-prob2.jpg`
 
 1. Determine the joint PDF $f_{X,Y}(x,y).$
 
@@ -291,7 +291,7 @@ Hence, ${\bf E}[Z]=40/3$.
 
 This figure below describes the joint PDF of the random variables $X$ and $Y$. These random variables take values in $[0,2]$and $[0,1]$, respectively. At $x=1$, the value of the joint PDF is $1/2$.
 
-![lec10-prob3-1](../assets/images/lec10-prob3.png)
+> **Image unavailable in this archive:** lec10-prob3-1. Original asset path: `../assets/images/lec10-prob3.png`
 
 1. Are $X$ and $Y$ independent?
 
@@ -340,7 +340,7 @@ f_ X(x)&=  \begin{cases} \int _0^ x\frac12\,  dy, &  \text{if } 0 < x \leq 1, \\
 $$
 A plot of the PDF is shown below:
 
-![lec10-prob3-2](../assets/images/lec10-prob3-2.png)
+> **Image unavailable in this archive:** lec10-prob3-2. Original asset path: `../assets/images/lec10-prob3-2.png`
 
 3) 
 
@@ -356,7 +356,7 @@ f_{Y|X}(y \mid 0.5)= \begin{cases} 2, &  \text{if } 0 \leq y \leq 1/2, \\ 0, &  
 $$
 A plot of the conditional PDF is shown below:
 
-![lec10-prob3-3](../assets/images/lec10-prob3-3.png)
+> **Image unavailable in this archive:** lec10-prob3-3. Original asset path: `../assets/images/lec10-prob3-3.png`
 
 4)
 
@@ -372,7 +372,7 @@ f_{X|Y}(x|0.5) = { f_{X,Y}(x,0.5) \over f_Y(0.5) } = \begin{cases}{1/2}&\text{if
 $$
 A plot of the conditional PDF is shown below:
 
-![lec10-prob3-4](../assets/images/lec10-prob3-4.png)
+> **Image unavailable in this archive:** lec10-prob3-4. Original asset path: `../assets/images/lec10-prob3-4.png`
 
 5)
 

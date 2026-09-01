@@ -255,7 +255,7 @@ Equivalently, $P(A \  {\rm and} \  N=n) = P(A\mid N=n)\cdot P(N=n) = P(A)\cdot P
 
 The joint PMF, $p_{X,Y}(x,y)$ of the random variables $X$ and $Y$ is given by the following table:
 
-![u4-prob1-table](D:/git/fundamentals-of-statistics-notes/docs/assets/images/u4-prob1-table.png)
+> **Image unavailable in this archive:** u4-prob1-table. Original asset path: `D:/git/fundamentals-of-statistics-notes/docs/assets/images/u4-prob1-table.png`
 
 1. Find the value of the constant $c$.
 2. Find $p_X(1)$.

@@ -17,7 +17,7 @@
 
     In the case below, $A$ and $B$ have no intersection in the condition of $C$. If $A$ happens, $B$ won't happen in the condition of $C$. This means that $A$ and $B$ are not independent.
 
-    ![condIndependent](../assets/images/condIndependent.png)
+    > **Image unavailable in this archive:** condIndependent. Original asset path: `../assets/images/condIndependent.png`
 
 * Independence of a collection of events
 
@@ -39,7 +39,7 @@
 
   * $p_i$: probability that unit $i$ is "up" ; $u_i$: $i$th unit up, $u_i$ are independent; $F_i$: $i$th unit down, $F_i$ are independent.
 
-    ![reliability1](../assets/images/reliability1.png)
+    > **Image unavailable in this archive:** reliability1. Original asset path: `../assets/images/reliability1.png`
     $$
     \begin{aligned}
     \mathbf{P}(\text{system up}) &= \mathbf{P}(u_1 \cap u_2 \cap u_3)\\
@@ -47,7 +47,7 @@
     &= p_1 p_2 p_3
     \end{aligned}
     $$
-    ![reliability2](../assets/images/reliability2.png)
+    > **Image unavailable in this archive:** reliability2. Original asset path: `../assets/images/reliability2.png`
     $$
     \begin{aligned}
     \mathbf{P}(\text{system up}) &= \mathbf{P}(u_1 \cup u_2 \cup u_3) \\
@@ -100,7 +100,7 @@ Suppose that each unit of a system is up with probability $2/3$ and down with pr
 
 1) $16/27$
 
-![ex_reliability1](../assets/images/ex_reliability1.jpg)
+> **Image unavailable in this archive:** ex_reliability1. Original asset path: `../assets/images/ex_reliability1.jpg`
 
 The probability of the parallel units fail = $(1/3) \cdot (1/3) = 1/9$.
 
@@ -110,7 +110,7 @@ The probability of the whole system is up = $(2/3) \cdot (8/9) = 16/27.$
 
 2) $22/27$
 
-![ex_reliability2](../assets/images/ex_reliability2.jpg)
+> **Image unavailable in this archive:** ex_reliability2. Original asset path: `../assets/images/ex_reliability2.jpg`
 
 The whole system is up only when the parallel both units are up.
 
@@ -128,7 +128,7 @@ The probability of the whole system up = $1- (5/27) = 22/27$.
 
 An electrical system consists of identical components, each of which is operational with probability $p$, independent of other components. The components are connected in three subsystems, as shown in the figure. The system is operational if there is a path that starts at point $A$, ends at point $B$, and consists of operational components. What is the probability of this happening?
 
-![reliability-prob3](../assets/images/reliability-prob3.jpg)
+> **Image unavailable in this archive:** reliability-prob3. Original asset path: `../assets/images/reliability-prob3.jpg`
 
 $\mathbf{P}(A \rightarrow B) = \mathbf{P}(A\rightarrow C)\mathbf{P}(C \rightarrow E) \mathbf{P}(E \rightarrow B)$ (since they are in series)
 

@@ -54,7 +54,7 @@
 
 * Interpretations of probabilities
 
-  ![roleOfProb](../assets/images/U1-lec1-role.png)
+  > **Image unavailable in this archive:** roleOfProb. Original asset path: `../assets/images/U1-lec1-role.png`
 
 * Mathematical background
 
@@ -178,7 +178,7 @@ Romeo and Juliet have a date at a given time, and each will arrive at the meetin
 
 First assume Romeo and Juliet arrive in 15min interval and we can draw the sample space in a discrete way.
 
-![U1-lec1-prob1](../assets/images/U1-lec1-prob1.png)
+> **Image unavailable in this archive:** U1-lec1-prob1. Original asset path: `../assets/images/U1-lec1-prob1.png`
 
 So that the probability of meeting each other is 
 $$
@@ -186,7 +186,7 @@ $$
 $$
 Now we draw the sample space in a continuous way
 
-![U1-lec1-prob1-2](../assets/images/U1-lec1-prob1-2.png)
+> **Image unavailable in this archive:** U1-lec1-prob1-2. Original asset path: `../assets/images/U1-lec1-prob1-2.png`
 
 So that the probability of meeting each other is 
 $$
@@ -229,7 +229,7 @@ A = \{  (i,j) \in \Omega : |i-j| \leq 2 \}
 $$
 We first find the cardinality of $Ω$. There are $n^2$ pairs $(i,j)$, but since the set $Ω$ excludes outcomes of the form $(i,i)$, the cardinality of $Ω$ is $n^2−n=n(n−1)$.
 
-![U1-lec1-prob3](../assets/images/U1-lec1-prob3.png)
+> **Image unavailable in this archive:** U1-lec1-prob3. Original asset path: `../assets/images/U1-lec1-prob3.png`
 
 If $n≥3$, event $A$ consists of the four lines indicated in the figure above and contains $2(n−1)+2(n−2)=4n−6$ elements. If $n=2$, event $A$ contains exactly $2$ elements, namely, $(1,2)$ and $(2,1)$, which agrees with the formula $4(2)−6=2$. Therefore,
 $$

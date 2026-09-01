@@ -221,7 +221,7 @@ $$
 >
 > Let $X∼N(5,1)$ and $f_X(x)$ be its pdf. Sketch the cumulative distribution function (cdf) $Φ(x)=∫^x_{−∞}f_X(t)dt$ of $X$ by doing the following:
 >
-> ![gaussian-cdf](../assets/images/gaussian-cdf.png)
+> > **Image unavailable in this archive:** gaussian-cdf. Original asset path: `../assets/images/gaussian-cdf.png`
 
 ## 5. Properties of the Gaussian distribution
 
@@ -315,7 +315,7 @@ We get that $\mathbf{P}(|Z| > 1.96) = 5\%$.
 >
 > Graphed below is the pdf of the normal distribution with generic/unknown (but fixed) variance $σ^2$. If the total area of the two shaded regions is $0.03$, then what is $x$?
 >
-> ![gaussian_quantile](../assets/images/ex_gaussian_quantile.svg)
+> > **Image unavailable in this archive:** gaussian_quantile. Original asset path: `../assets/images/ex_gaussian_quantile.svg`
 >
 > **Answer**: $x = q_{\alpha} = q_{0.015}$.
 >
@@ -466,7 +466,7 @@ Properties:
 > $$
 > We already know that $ \left(M_ n\right)_{n\geq 1}$ converges in distribution to $M$; here we check directly through definition. As $n \rightarrow \infty$, $F_{M_n}(x)$ approaches the step function shown below. 
 >
-> ![u1s2_stepfunction](../assets/images/u1s2_stepfunction.svg)
+> > **Image unavailable in this archive:** u1s2_stepfunction. Original asset path: `../assets/images/u1s2_stepfunction.svg`
 
 **Exercise Remark**: In general, for a sequence $\left(T_ n\right)_{n\geq 1},\,$ if $\, \mathbb E[T_ n]\xrightarrow [n\to \infty ]{}\mu \,$ and $\, \textsf{Var}(T_ n)\xrightarrow [n\to \infty ]{} 0,\,$then $\, T_ n\xrightarrow [n\to \infty ]{\mathbf{P}}\mu .\, \,$ Both this problem and the previous one satisfy these conditions.
 

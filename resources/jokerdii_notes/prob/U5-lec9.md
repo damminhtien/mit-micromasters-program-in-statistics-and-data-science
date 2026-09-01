@@ -60,7 +60,7 @@
 
     * $f_X(x) = \mathbf{P}(A_1)f_{X \vert A_1}(x) +  \mathbf{P}(A_2)f_{X \vert A_2}(x)  = 1/3 \times 1/2 + 2/3 \times 1/2 = 1/2$. So the PDF looks like this
 
-      ![U5-lec9-total-prob-ex](../assets/images/U5-lec9-total-prob-ex.png)
+      > **Image unavailable in this archive:** U5-lec9-total-prob-ex. Original asset path: `../assets/images/U5-lec9-total-prob-ex.png`
 
     * $\mathbf{E}[X] = \mathbf{P}(A_1)\mathbf{E}[X \vert A_1] + \mathbf{P}(A_2)\mathbf{E}[X \vert A_2] = 1/3 \cdot 1 + 2/3 \cdot 7$.
 
@@ -176,7 +176,7 @@ The taxi stand and the bus stop near Al's home are in the same location. Al goes
 
 **Answer**:
 
-![U5-prob1-mixed](../assets/images/U5-prob1-mixed.png)
+> **Image unavailable in this archive:** U5-prob1-mixed. Original asset path: `../assets/images/U5-prob1-mixed.png`
 
 **Solution**: 
 $$

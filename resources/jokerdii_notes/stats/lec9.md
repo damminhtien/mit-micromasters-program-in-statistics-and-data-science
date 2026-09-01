@@ -77,7 +77,7 @@ g(tx_1+(1-t)x_2)\geq tg(x_1)+(1-t)g(x_2)\qquad \text {for all } \, 0 < t < 1.
 $$
 Geometrically, a concave function is shown below
 
-![images_u3s2_concave](../assets/images/images_u3s2_concave.svg)
+> **Image unavailable in this archive:** images_u3s2_concave. Original asset path: `../assets/images/images_u3s2_concave.svg`
 
 At $x=x_2-t(x_2-x_1)=tx_1+(1-t)x_2$, the $y$ value of the graph of $g$ is $g(x)=g(tx_1+(1-t)x_2)$, while the $y$ value of the secant line is $tg(x_1)+(1-t)g(x_2)$.
 

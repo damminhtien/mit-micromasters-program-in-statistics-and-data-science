@@ -44,7 +44,7 @@ Moreover, the minimizer of the RHS is $\theta^*$ if the parameter is **identifia
 
 The RHS can be plotted as a concave curve:
 
-![images_u3s03_plot_KL](../assets/images/images_u3s03_plot_KL.png)
+> **Image unavailable in this archive:** images_u3s03_plot_KL. Original asset path: `../assets/images/images_u3s03_plot_KL.png`
 
 Technical conditions allow to transfer this convergence from $y$-axis to and $x$-axis convergence - a convergence of the minimizer. 
 

@@ -38,7 +38,7 @@
   $$
   F_Z(z) = \mathbf{P}(Y/X \leq z) = \begin{cases}0 & z < 0\\ {1\over 2} z, & 0 \leq z \leq1 \\ 1 - {1\over 2z},\quad &z > 1 \end{cases} 
   $$
-  ![lec11-multiple-rv](../assets/images/lec11-multiple-rv.png)
+  > **Image unavailable in this archive:** lec11-multiple-rv. Original asset path: `../assets/images/lec11-multiple-rv.png`
 
 There are 3 selected exercises and 4 solved problems.
 
@@ -186,7 +186,7 @@ $$
 
 We can see that $ \mathbf{P}(X - vt \leq Y \leq X + vt)$ corresponds to the integral of the joint density of $X$ and $Y$ over the shaded region in the figure below.
 
-![u6-lec11-prob3](../assets/images/u6-lec11-prob3.png)
+> **Image unavailable in this archive:** u6-lec11-prob3. Original asset path: `../assets/images/u6-lec11-prob3.png`
 
 Because the joint density is uniform over the entire region, for $0 \leq t \leq {l \over  v}$,
 $$

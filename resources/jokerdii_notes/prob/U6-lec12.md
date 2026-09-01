@@ -103,7 +103,7 @@ There are 5 selected exercises and 4 solved problems.
 
 The random variables $X$ and $Y$ are independent and have the PMFs shown in this diagram.
 
-![U6-lec12-ex1](../assets/images/U6-lec12-ex1.png)
+> **Image unavailable in this archive:** U6-lec12-ex1. Original asset path: `../assets/images/U6-lec12-ex1.png`
 
 What is the probability that $X + Y = 6$?
 
@@ -284,7 +284,7 @@ $$
 
 2. Let the random variable $X$ be uniform on $[0,2]$ and the random variable $Y$ be uniform on $[3,4]$ . (Note that in this case, $X$ and $Y$ are continuous random variables.) Assume that $X$ and $Y$ are independent. Let $Z = X+Y$. Find the PDF of $Z$ using convolution. Find $a,b,c,d,e$ in the graph of the PDF
 
-   ![images_chap4_convolution1](../assets/images/images_chap4_convolution1.jpg)
+   > **Image unavailable in this archive:** images_chap4_convolution1. Original asset path: `../assets/images/images_chap4_convolution1.jpg`
 
 **Solution:**
 
