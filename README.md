@@ -11,10 +11,27 @@ A learner-maintained study archive for the MITx MicroMasters in Statistics and D
 ## Start here
 
 - [Content map](docs/CONTENT_MAP.md) — the shortest route through the repository.
+- [Showcases](docs/SHOWCASES.md) — selected program, report, and milestone artifacts.
 - [Course quality notes](docs/QUALITY.md) — what is verified, incomplete, or still being cleaned.
 - [Roadmap](ROADMAP.md) — the next milestones for making the archive more useful.
 - [Contributing](CONTRIBUTING.md) — report a broken link, propose a correction, or add a study resource.
+- [Notion study-notes mirror](https://damminhtien.notion.site/MITx-SDS-7866aebb7437458496c298bc49c350e3?pvs=4) — an external reading view; availability may change.
 - [MITx SDS official site](https://micromasters.mit.edu/ds/) — enrollment, current dates, and program policy.
+
+## Showcases
+
+These snapshots keep the personal story of the archive visible while the rest of the repository stays organized for discovery. The [showcase gallery](docs/SHOWCASES.md) adds captions, provenance, and links to the underlying work.
+
+<p align="center">
+  <img src="resources/images/mitx_sds.png" alt="MITx Statistics and Data Science program visual" width="480">
+  <img src="resources/images/written_report.drawio.png" alt="Written report workflow artifact" width="240">
+</p>
+<p align="center">
+  <img src="resources/images/letter.png" alt="MIT IDSS program letter" width="420">
+  <img src="resources/images/cert.png" alt="MITx SDS completion certificate" width="420">
+</p>
+
+The letter and certificate are owner-provided milestones. Some images may contain personal identifiers; review them before redistributing this README outside GitHub.
 
 ## Program map
 
@@ -37,7 +54,7 @@ For the authoritative requirement and eligibility rules, use the [MIT SDS FAQ](h
 - **Working examples:** notebooks, projects, written analyses, and recap sheets.
 - **Runbooks:** dependency and path guidance for the [Data Analysis projects](6.419x_dataanalysis/projects/README.md) and [Machine Learning projects](6.86x_machinelearning/projects/README.md).
 - **Imported references:** a separately labelled collection of external notes under [`resources/jokerdii_notes`](resources/jokerdii_notes/README.md).
-- **Personal learning record:** selected reflections and reports, with personal identifiers intentionally not promoted on this landing page.
+- **Personal learning record:** selected reflections, reports, and milestones in the [showcase gallery](docs/SHOWCASES.md).
 
 The notes are not equally complete. A status marker in the [content map](docs/CONTENT_MAP.md) is more reliable than assuming that every linked file is a finished chapter.
 

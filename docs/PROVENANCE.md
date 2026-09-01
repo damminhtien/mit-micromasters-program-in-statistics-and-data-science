@@ -8,6 +8,7 @@ This repository is a mixed study archive. A root MIT license does not automatica
 - **Course material:** slides, PDFs, screenshots, and platform exports collected for study. Copyright and platform terms remain with their owners.
 - **External references:** notes or links from other authors. Keep the original attribution and follow the source license.
 - **Submitted work:** personal assignments and reports. They are examples of one learner's work, not official answers.
+- **Showcase images:** the [showcase gallery](SHOWCASES.md) keeps owner-provided program letters, certificates, and artifact previews visible. Some may contain personal identifiers and should be reviewed before redistribution.
 
 ## Rules for additions
 

@@ -14,6 +14,10 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {".git", ".codex", "graphify-out", ".venv", "__pycache__"}
 LINK_RE = re.compile(r"(?P<image>!)?\[(?P<label>[^\]]*)\]\((?P<target><[^>]*>|[^)\n]*)\)")
+HTML_IMAGE_RE = re.compile(
+    r"<img\b[^>]*\bsrc\s*=\s*([\"'])(?P<target>.*?)\1",
+    re.IGNORECASE,
+)
 WINDOWS_PATH_RE = re.compile(r"^[A-Za-z]:[\\/]")
 
 
@@ -71,6 +75,10 @@ def check_file(path: Path) -> list[tuple[int, str]]:
             label = match.group("label").strip().lower()
             if label.startswith("mathjax"):
                 continue
+            target = local_target(path, match.group("target"))
+            if target is not None and not target.exists():
+                issues.append((line_number, match.group("target")))
+        for match in HTML_IMAGE_RE.finditer(line):
             target = local_target(path, match.group("target"))
             if target is not None and not target.exists():
                 issues.append((line_number, match.group("target")))
