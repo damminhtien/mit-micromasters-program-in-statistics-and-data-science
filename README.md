@@ -42,8 +42,8 @@ These snapshots preserve the personal story behind the projects while keeping th
   <img src="resources/images/written_report.drawio.png" alt="Written report workflow artifact" width="240">
 </p>
 <p align="center">
-  <img src="resources/images/letter.png" alt="MIT IDSS program letter" width="420">
-  <img src="resources/images/cert.png" alt="MITx SDS completion certificate" width="420">
+  <img src="resources/images/letter_public.png" alt="Redacted MIT IDSS program letter" width="420">
+  <img src="resources/images/cert_public.png" alt="Redacted MITx SDS completion certificate" width="420">
 </p>
 
 The letter and certificate are owner-provided milestones. Some images may contain personal identifiers; review them before redistributing this README outside GitHub.

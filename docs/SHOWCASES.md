@@ -27,15 +27,15 @@ Preview of a written-analysis workflow. The associated personal reports are inde
 
 ### Program letter
 
-![MIT IDSS program letter](../resources/images/letter.png)
+![Redacted MIT IDSS program letter](../resources/images/letter_public.png)
 
-Owner-provided program milestone. The image is retained for provenance and personal context; it does not establish current enrollment or program policy.
+Owner-provided program milestone. This public copy redacts the recipient name; the original is kept locally and is not tracked in Git. The image does not establish current enrollment or program policy.
 
 ### Certificate
 
-![MITx SDS completion certificate](../resources/images/cert.png)
+![Redacted MITx SDS completion certificate](../resources/images/cert_public.png)
 
-Owner-provided completion milestone. This image may contain a credential identifier, so anyone publishing a fork or derivative should review whether to redact it first.
+Owner-provided completion milestone. This public copy redacts the recipient name and valid certificate ID; the original is kept locally and is not tracked in Git.
 
 ## Personal study-notes mirror
 

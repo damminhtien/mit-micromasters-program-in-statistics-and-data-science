@@ -166,3 +166,7 @@ cython_debug/
 # Local Codex/Graphify state; never publish generated agent artifacts.
 .codex/
 graphify-out/
+
+# Private source images; publish only the redacted derivatives.
+/resources/images/cert.png
+/resources/images/letter.png
