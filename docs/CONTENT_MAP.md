@@ -21,6 +21,7 @@ For runnable examples, use the [Data Analysis project runbook](../6.419x_dataana
 | Course index | Each course `README.md` | Maintained entry point and scope statement |
 | Personal notes | `*/study_notes/` | Learner-authored summaries with uneven completeness |
 | Practice and projects | `*/projects/`, notebooks, reports | Examples of work; not official solutions |
+| Reusable project gallery | [`docs/PROJECTS.md`](PROJECTS.md) | Entry points, run commands, evidence, and reuse limitations |
 | Showcase gallery | [`docs/SHOWCASES.md`](SHOWCASES.md) | Curated program context, personal artifacts, and milestone images |
 | Course assets | `*/lectures/`, `*/resources/` | Files or links collected from course sessions |
 | Imported references | [`resources/jokerdii_notes`](../resources/jokerdii_notes/README.md) | External notes kept separate from personal notes |

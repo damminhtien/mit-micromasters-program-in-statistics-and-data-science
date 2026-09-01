@@ -11,6 +11,7 @@ A learner-maintained study archive for the MITx MicroMasters in Statistics and D
 ## Start here
 
 - [Content map](docs/CONTENT_MAP.md) — the shortest route through the repository.
+- [Project gallery](docs/PROJECTS.md) — reusable algorithms, notebooks, datasets, and run commands.
 - [Showcases](docs/SHOWCASES.md) — selected program, report, and milestone artifacts.
 - [Course quality notes](docs/QUALITY.md) — what is verified, incomplete, or still being cleaned.
 - [Roadmap](ROADMAP.md) — the next milestones for making the archive more useful.
@@ -18,9 +19,23 @@ A learner-maintained study archive for the MITx MicroMasters in Statistics and D
 - [Notion study-notes mirror](https://damminhtien.notion.site/MITx-SDS-7866aebb7437458496c298bc49c350e3?pvs=4) — an external reading view; availability may change.
 - [MITx SDS official site](https://micromasters.mit.edu/ds/) — enrollment, current dates, and program policy.
 
-## Showcases
+## Featured reusable projects
 
-These snapshots keep the personal story of the archive visible while the rest of the repository stays organized for discovery. The [showcase gallery](docs/SHOWCASES.md) adds captions, provenance, and links to the underlying work.
+The most reusable part of this archive is the project work. Each entry below links directly to an implementation or notebook so readers can inspect, run, adapt, or extend it.
+
+| Project | Reusable core | Start here | Status |
+| --- | --- | --- | --- |
+| Matrix completion and recommendation | Gaussian-mixture EM, K-means baseline, BIC model selection, and matrix filling | [`project4_netflix`](6.86x_machinelearning/projects/project4_netflix/main.py) | Bundled toy data; smoke-tested |
+| Sentiment classification | Bag-of-words features, perceptron, averaged perceptron, Pegasos, and tuning helpers | [`sentiment_analysis`](6.86x_machinelearning/projects/sentiment_analysis/project1.py) | Local TSV data; test harness passes |
+| MNIST model baselines | PCA, softmax regression, fully connected and convolutional PyTorch models | [`mnist`](6.86x_machinelearning/projects/mnist/part1/softmax.py) | Educational reference; local data included |
+| High-dimensional analysis | PCA, MDS, t-SNE, clustering, and unsupervised feature selection | [`Analysis1.ipynb`](6.419x_dataanalysis/projects/Analysis1.ipynb) | Notebook workflow; course data may be required |
+| Dynamic network analysis | Phase-by-phase CAVIAR network exploration | [`Analysis3_1.ipynb`](6.419x_dataanalysis/projects/Analysis3_1.ipynb) | Notebook plus phase CSVs |
+
+See the [full project gallery](docs/PROJECTS.md) for reusable files, setup commands, limitations, and reproducibility notes.
+
+## Learning journey showcases
+
+These snapshots preserve the personal story behind the projects while keeping the reusable work above as the primary entry point. The [showcase gallery](docs/SHOWCASES.md) adds captions, provenance, and links to the underlying artifacts.
 
 <p align="center">
   <img src="resources/images/mitx_sds.png" alt="MITx Statistics and Data Science program visual" width="480">

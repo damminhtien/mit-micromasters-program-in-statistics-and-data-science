@@ -1,6 +1,6 @@
 # 6.419x projects
 
-The notebooks in this directory are worked examples from the Data Analysis course. They are valuable as case studies, but they are not official solutions and are not all guaranteed to run without the original course data.
+The notebooks in this directory are worked examples from the Data Analysis course. They are valuable as case studies, but they are not official solutions and are not all guaranteed to run without the original course data. For the public-facing catalog, see the repository's [reusable project gallery](../../docs/PROJECTS.md).
 
 ## Setup
 

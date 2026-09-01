@@ -1,14 +1,20 @@
+import os
+from pathlib import Path
+
 import project1 as p1
 import utils
 import numpy as np
+
+
+DATA_DIR = Path(os.environ.get("SENTIMENT_DATA_DIR", Path(__file__).resolve().parent))
 
 #-------------------------------------------------------------------------------
 # Data loading. There is no need to edit code in this section.
 #-------------------------------------------------------------------------------
 
-train_data = utils.load_data('/home/ha/Desktop/MITx SDS/data_and_materials/sentiment_analysis/reviews_train.tsv')
-val_data = utils.load_data('/home/ha/Desktop/MITx SDS/data_and_materials/sentiment_analysis/reviews_val.tsv')
-test_data = utils.load_data('/home/ha/Desktop/MITx SDS/data_and_materials/sentiment_analysis/reviews_test.tsv')
+train_data = utils.load_data(DATA_DIR / "reviews_train.tsv")
+val_data = utils.load_data(DATA_DIR / "reviews_val.tsv")
+test_data = utils.load_data(DATA_DIR / "reviews_test.tsv")
 
 train_texts, train_labels = zip(*((sample['text'], sample['sentiment']) for sample in train_data))
 val_texts, val_labels = zip(*((sample['text'], sample['sentiment']) for sample in val_data))
