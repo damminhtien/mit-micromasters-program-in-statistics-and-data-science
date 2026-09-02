@@ -2,7 +2,7 @@
 
 Personal study notes for MITx 18.6501x. The course emphasizes mathematical foundations, inference, estimators, hypothesis testing, and the assumptions behind statistical methods.
 
-> **Status:** Units 1–6 have local notes of different depth. Verify formulas against the official course material before using them for assessment preparation.
+> **Status:** Units 1–6 have local notes of different depth; Units 3–4 now include source-grounded learner summaries. Verify formulas against the official course material before using them for assessment preparation.
 
 ## Learning objectives
 
@@ -20,6 +20,7 @@ Personal study notes for MITx 18.6501x. The course emphasizes mathematical found
 - [Textbook and references](study_notes/Text%20book%20367480bf55fb473186f5a995fb61449e.md)
 - [Material resources](study_notes/Material%20resources%20a8acf5cc2e7946e4b6d47ecde98f357e.md)
 - [Common distributions](study_notes/Common%20distributions%20924829ffcf94465892fff31cf786fa47.md)
+- [Study notes index](study_notes/README.md)
 
 ### Local units
 

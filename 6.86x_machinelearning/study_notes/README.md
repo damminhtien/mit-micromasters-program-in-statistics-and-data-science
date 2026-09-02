@@ -15,8 +15,8 @@ This index points to the local notes directly. The long filenames are retained f
 | Unit | Topic | Status |
 | --- | --- | --- |
 | 1 | [Linear classifiers and generalization](Unit%201%20Linear%20Classifier%20and%20Generalization%20a9e252a8fca54ee0986d898c5cf1762d.md) | Notes |
-| 2.1 | [Nonlinear classification and linear regression](Unit%202%201%20Nonlinear%20Classification,%20Linear%20regressi%20adfbf0a7783a436ca31f9499a32e48d5.md) | Incomplete |
-| 2.2 | [Recommender systems](Unit%202%202%20Recommender%20Systems%2043da74e9b3714ba3b039920826bfb3e3.md) | Incomplete |
+| 2.1 | [Nonlinear classification and linear regression](Unit%202%201%20Nonlinear%20Classification,%20Linear%20regressi%20adfbf0a7783a436ca31f9499a32e48d5.md) | Source-grounded summary |
+| 2.2 | [Recommender systems](Unit%202%202%20Recommender%20Systems%2043da74e9b3714ba3b039920826bfb3e3.md) | Source-grounded summary |
 | 3 | [Neural networks](Unit%203%20Neural%20networks%200116f2096b254d8e9fd30655e3755a83.md) | Notes and lecture pages |
 
 ## Revision sheets
@@ -25,4 +25,4 @@ This index points to the local notes directly. The long filenames are retained f
 - [Cheatsheet 1](Cheatsheet%201%20142d5cc29c2280e5aacecba371769da0.md)
 - [Cheatsheet 2](Cheatsheet%202%20142d5cc29c22808c9ddce575a25d2884.md)
 
-The index is deliberately honest about incomplete units. A future contribution should add a source, assumptions, and a runnable example rather than only expanding the prose.
+The index is deliberately honest about depth and reproducibility. Future contributions should add a source, assumptions, and a runnable example rather than only expanding the prose.

@@ -2,7 +2,7 @@
 
 Personal study archive for MITx 6.419x, *Data Analysis: Statistical Modeling and Computation in Applications*. The course connects statistical modeling with computation through high-dimensional data, networks, time series, and environmental applications.
 
-> **Status:** Local notes cover Modules 0–3 unevenly. Module 4 Gaussian-process material is primarily represented by external course links, not a complete local note set.
+> **Status:** Modules 0–3 have local notes of uneven depth, including source-grounded summaries for the high-dimensional classification and clustering lectures. Module 4 Gaussian-process material is primarily represented by external course links, not a complete local note set.
 
 ## Course map
 
@@ -23,6 +23,7 @@ Personal study archive for MITx 6.419x, *Data Analysis: Statistical Modeling and
 - [Report guidelines](study_notes/Guidelines%20report%2065084ff0a52a4ce2ab654821b7117549.md)
 - [Written analysis format](study_notes/Written%20Analysis%20Format%20Requirements%201294f578f2804e9b97c236e2b9295c4a.md)
 - [Cheatsheet](study_notes/Cheatsheet%20141d5cc29c22807f8556f7f103c84240.md)
+- [Study notes index](study_notes/README.md)
 
 ## Projects
 

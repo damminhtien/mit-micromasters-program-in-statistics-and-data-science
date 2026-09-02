@@ -56,6 +56,8 @@ Where is probability useful? Everywhere!
 
 [Material resources](study_notes/Material%20resources%20448c46f88f4e4997ad9a7df389287b64.md)
 
+[Study notes index](study_notes/README.md)
+
 [Mathematical background](study_notes/Mathematical%20background%20514b06a51c0e4c578917c17f8f81c6e0.md)
 
 ### **Units 1-3** Basic probability [4 lectures; Ch. 1] (*)

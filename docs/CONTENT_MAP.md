@@ -31,10 +31,10 @@ For runnable examples, use the [Data Analysis project runbook](../6.419x_dataana
 
 | Area | Local coverage | Reader expectation |
 | --- | --- | --- |
-| Probability | Broad | Main course index is usable; verify formulas against source material. |
-| Statistics | Units 1–6 | Unit depth is uneven; Units 5–6 need careful proofreading. |
-| Machine learning | Units 1–3 plus projects | Some study-note files are status placeholders. |
-| Data analysis | Modules 0–3 | Module 4 is mainly external links. |
+| Probability | Units 1–10 | All units have local note pages; depth is uneven, so verify formulas against source material. |
+| Statistics | Units 1–6 | Unit 3 now has a source-grounded estimation summary; remaining unit depth is uneven. |
+| Machine learning | Units 1–3 plus projects | Unit 2.1 and 2.2 now have source-grounded summaries; projects remain educational artifacts. |
+| Data analysis | Modules 0–3 | High-dimensional classification/clustering notes are source-grounded; Module 4 is mainly external links. |
 | Imported probability/statistics notes | Broad but asset-dependent | Missing external images are called out; do not treat as authored here. |
 
 ## How to read a note
