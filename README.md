@@ -17,6 +17,7 @@ A learner-maintained study archive for the MITx MicroMasters in Statistics and D
 - [Roadmap](ROADMAP.md) — the next milestones for making the archive more useful.
 - [Contributing](CONTRIBUTING.md) — report a broken link, propose a correction, or add a study resource.
 - [Notion study-notes mirror](https://damminhtien.notion.site/MITx-SDS-7866aebb7437458496c298bc49c350e3?pvs=4) — an external reading view; availability may change.
+- [GitHub Pages study hub](https://damminhtien.github.io/mit-micromasters-program-in-statistics-and-data-science/) — a curated public front door for the archive.
 - [MITx SDS official site](https://micromasters.mit.edu/ds/) — enrollment, current dates, and program policy.
 
 ## Featured reusable projects
