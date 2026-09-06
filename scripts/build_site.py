@@ -140,7 +140,7 @@ def layout(title: str, description: str, body: str, active: str) -> str:
   <meta property="og:title" content="{escape(title)}">
   <meta property="og:description" content="{escape(description)}">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=mit-red">
   <title>{escape(title)} · MITx SDS Study Hub</title>
 </head>
 <body>
